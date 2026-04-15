@@ -4,19 +4,19 @@ A collection of deep-analysis articles written in Chinese, covering AI & busines
 
 ## Articles
 
-| Article | Topic |
-|---------|-------|
-| [SpaceX 立志传（一）：赌上全部的最后一次发射](SpaceX%20立志传（一）：赌上全部的最后一次发射.md) | How SpaceX survived from the 2001 Moscow trip through Falcon 1's three failures to the do-or-die fourth launch |
-| [估值290亿美元的套壳公司，正在被自己的房东杀死](估值290亿美元的套壳公司，正在被自己的房东杀死.md) | Cursor's $29B rise and the structural risk of building on someone else's model |
-| [AI将如何颠覆教育，普通人又应该如何抢夺教育新的生态位](AI将如何颠覆教育，普通人又应该如何抢夺教育新的生态位.md) | AI reshaping education: vibe learning, school's role, and business opportunities |
-| [学物理的八方英雄们，物理学已死，请转行搞AI](学物理的八方英雄们，物理学已死，请转行搞AI.md) | Physics is dead, AI is the new frontier for physicists |
-| [不会编程、没有融资、没有员工，他怎么一个人做到年入2000万](不会编程、没有融资、没有员工，他怎么一个人做到年入2000万.md) | Pieter Levels: the clean version of a one-person company |
-| [兄弟们想清楚：究竟是你为X打工，还是X为你打工？](兄弟们想清楚：究竟是你为X打工，还是X为你打工？.md) | X/Twitter creator payouts vs. using the platform as a tool |
-| [一人公司盈利四亿美元：是骗子，还是可复制的红利？](一人公司盈利四亿美元：是骗子，还是可复制的红利？.md) | MEDVi: $400M revenue, 800 fake doctors, and what's replicable |
-| [2026第一季度大裁员，AI是背锅侠吗？](2026第一季度大裁员，AI是背锅侠吗？.md) | Q1 2026 layoffs: AI as scapegoat for bad strategy and bloated orgs |
-| [重返星辰大海：这次绕月飞行有意义吗？](重返星辰大海：这次绕月飞行有意义吗？.md) | NASA Artemis II, the 54-year gap, and US industrial decline |
-| [张雪峰在美国为什么无法成功](张雪峰在美国为什么无法成功.md) | Why China's top education consultant can't succeed in the US |
-| [2026 企业尸检报告：不用AI，你的公司能活过今年吗？](2026%20企业尸检报告：不用AI，你的公司能活过今年吗？.md) | AI transforms business survival |
+| Article | X Post | Views |
+|---------|--------|-------|
+| [SpaceX 立志传（一）：赌上全部的最后一次发射](SpaceX%20立志传（一）：赌上全部的最后一次发射.md) | — | — |
+| [估值290亿美元的套壳公司，正在被自己的房东杀死](估值290亿美元的套壳公司，正在被自己的房东杀死.md) | — | — |
+| [AI将如何颠覆教育，普通人又应该如何抢夺教育新的生态位](AI将如何颠覆教育，普通人又应该如何抢夺教育新的生态位.md) | — | — |
+| [学物理的八方英雄们，物理学已死，请转行搞AI](学物理的八方英雄们，物理学已死，请转行搞AI.md) | — | — |
+| [不会编程、没有融资、没有员工，他怎么一个人做到年入2000万](不会编程、没有融资、没有员工，他怎么一个人做到年入2000万.md) | — | — |
+| [兄弟们想清楚：究竟是你为X打工，还是X为你打工？](兄弟们想清楚：究竟是你为X打工，还是X为你打工？.md) | [@snowboat84](https://x.com/snowboat84/status/2043842017260908743) | 2.4k |
+| [一人公司盈利四亿美元：是骗子，还是可复制的红利？](一人公司盈利四亿美元：是骗子，还是可复制的红利？.md) | [@snowboat84](https://x.com/snowboat84/status/2043493870265422223) | 488 |
+| [2026第一季度大裁员，AI是背锅侠吗？](2026第一季度大裁员，AI是背锅侠吗？.md) | [@snowboat84](https://x.com/snowboat84/status/2042766853404307931) | 2.3k |
+| [重返星辰大海：这次绕月飞行有意义吗？](重返星辰大海：这次绕月飞行有意义吗？.md) | [@snowboat84](https://x.com/snowboat84/status/2042405716380835998) | 4k |
+| [张雪峰在美国为什么无法成功](张雪峰在美国为什么无法成功.md) | [@snowboat84](https://x.com/snowboat84/status/2042045634245746743) | 1.8k |
+| [2026 企业尸检报告：不用AI，你的公司能活过今年吗？](2026%20企业尸检报告：不用AI，你的公司能活过今年吗？.md) | [@snowboat84](https://x.com/snowboat84/status/2041672997959057517) | 128 |
 
 ## Writing Workflow
 
