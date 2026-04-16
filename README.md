@@ -1,6 +1,6 @@
 # AI Profit System & Deep Analysis Articles
 
-A collection of deep-analysis articles written in Chinese, covering AI & business, education, space exploration, and more.
+Deep-analysis articles in Chinese, covering AI & business, education, space exploration, and more.
 
 ## Articles
 
