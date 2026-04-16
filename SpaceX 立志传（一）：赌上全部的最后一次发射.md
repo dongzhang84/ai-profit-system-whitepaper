@@ -206,7 +206,22 @@ SpaceX 找到的地方是德州 McGregor 的一片旷野。这片地原本是 Be
 
 ---
 
-## 参考文献
+## 作者其它文章
+
+- [学物理的八方英雄们，物理学已死，请转行搞AI](https://x.com/snowboat84/status/2044584627046920278)
+- [不会编程、没有融资、没有员工，他怎么一个人做到年入2000万](https://x.com/snowboat84/status/2044216044575998136)
+- [兄弟们想清楚：究竟是你为X打工，还是X为你打工？](https://x.com/snowboat84/status/2043842017260908743)
+- [一人公司盈利四亿美元：是骗子，还是可复制的红利？](https://x.com/snowboat84/status/2043493870265422223)
+- [2026第一季度大裁员，AI是背锅侠吗？](https://x.com/snowboat84/status/2042766853404307931)
+- [重返星辰大海：这次绕月飞行有意义吗？](https://x.com/snowboat84/status/2042405716380835998)
+- [张雪峰在美国为什么无法成功](https://x.com/snowboat84/status/2042045634245746743)
+- [2026 企业尸检报告：不用AI，你的公司能活过今年吗？](https://x.com/snowboat84/status/2041672997959057517)
+- [兄弟们，我创业失败了，人生完整了](https://x.com/snowboat84/status/2040948420391940272)
+
+
+---
+
+## 本文参考文献
 
 - [Falcon 1 - Wikipedia](https://en.wikipedia.org/wiki/Falcon_1) - SpaceX Falcon 1 五次发射的详细时间、原因、载荷信息
 - [Tom Mueller - Wikipedia](https://en.wikipedia.org/wiki/Tom_Mueller) - 1 号员工汤姆·穆勒的背景，TRW 经历，车库自制液体火箭引擎细节
