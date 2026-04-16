@@ -16,7 +16,7 @@ Deep-analysis articles in Chinese by [@snowboat84](https://x.com/snowboat84), co
 | 5 | [2026第一季度大裁员，AI是背锅侠吗？](2026第一季度大裁员，AI是背锅侠吗？.md) | [link](https://x.com/snowboat84/status/2042766853404307931) | 2.3k | — |
 | 4 | [重返星辰大海：这次绕月飞行有意义吗？](重返星辰大海：这次绕月飞行有意义吗？.md) | [link](https://x.com/snowboat84/status/2042405716380835998) | 4.3k | [link](https://zhuanlan.zhihu.com/p/2026252685142242468) |
 | 3 | [张雪峰在美国为什么无法成功](张雪峰在美国为什么无法成功.md) | [link](https://x.com/snowboat84/status/2042045634245746743) | 2.1k | [link](https://zhuanlan.zhihu.com/p/2026250301347243657) |
-| 2 | [2026 企业尸检报告：不用AI，你的公司能活过今年吗？](2026%20企业尸检报告：不用AI，你的公司能活过今年吗？.md) | [link](https://x.com/snowboat84/status/2041672997959057517) | 100+ | — |
+| 2 | [2026 企业尸检报告：不用AI，你的公司能活过今年吗？](archive/2026%20企业尸检报告：不用AI，你的公司能活过今年吗？.md) | [link](https://x.com/snowboat84/status/2041672997959057517) | 100+ | — |
 | 1 | 兄弟们，我创业失败了，人生完整了 | [link](https://x.com/snowboat84/status/2040948420391940272) | 1.4k | — |
 
 ## Writing Workflow
