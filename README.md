@@ -1,11 +1,14 @@
-# AI Profit System & Deep Analysis Articles
+# Snowboat Blog
 
-Deep-analysis articles in Chinese, covering AI & business, education, space exploration, and more.
+Deep-analysis articles in Chinese by [@snowboat84](https://x.com/snowboat84), covering AI & business, education, space exploration, physics & math, and more.
 
 ## Articles
 
 | # | Article | X Post | X Views | 知乎 |
 |---|---------|--------|---------|------|
+| 15 | [长篇科普：卡拉比—丘成桐定理，及其物理意义（下）](长篇科普：卡拉比—丘成桐定理，及其物理意义（下）.md) | — | — | — |
+| 14 | [长篇科普：卡拉比—丘成桐定理，及其物理意义（上中篇全文）](长篇科普：卡拉比—丘成桐定理，及其物理意义_上中篇全文.md) | — | — | — |
+| 13 | [SpaceX 立志传（二）：NASA的救命钱](SpaceX%20立志传（二）：NASA的救命钱.md) | — | — | — |
 | 12 | [SpaceX 立志传（一）：赌上全部的最后一次发射](SpaceX%20立志传（一）：赌上全部的最后一次发射.md) | — | — | — |
 | 11 | [估值290亿美元的套壳公司，正在被自己的房东杀死](估值290亿美元的套壳公司，正在被自己的房东杀死.md) | — | — | — |
 | 10 | [AI将如何颠覆教育，普通人又应该如何抢夺教育新的生态位](AI将如何颠覆教育，普通人又应该如何抢夺教育新的生态位.md) | — | — | — |
@@ -29,12 +32,12 @@ Articles are drafted as rough notes, then expanded into structured pieces using 
 
 ## Reading List
 
-A curated reading list ([reading-list.md](reading-list.md)) accompanies the whitepaper, organized in four stages:
+A curated reading list ([reading-list.md](reading-list.md)) on AI & business transformation, organized in four stages:
 
-1. **Death Traps** — understanding why traditional businesses fail
-2. **AI-Native Architecture** — the new paradigm
-3. **Acquisition & Growth** — rebuilding the customer engine
-4. **Data Sources** — McKinsey, a16z, CB Insights, BLS, and more
+1. **Death Traps**: understanding why traditional businesses fail
+2. **AI-Native Architecture**: the new paradigm
+3. **Acquisition & Growth**: rebuilding the customer engine
+4. **Data Sources**: McKinsey, a16z, CB Insights, BLS, and more
 
 ## Status
 
