@@ -21,7 +21,7 @@ Deep-analysis articles in Chinese by [@snowboat84](https://x.com/snowboat84), co
 
 ## Writing Workflow
 
-Articles are drafted as rough notes, then expanded into structured pieces using the `/write-article` Claude Code skill. Each article includes:
+Articles are drafted as rough notes, then expanded into structured pieces using the `/write-article` Claude Code skill from [vibe-writing-skills](https://github.com/dongzhang84/vibe-writing-skills) (my open-source writing skill repo). Each article includes:
 
 - Fact-checked data via web search
 - References with source links
