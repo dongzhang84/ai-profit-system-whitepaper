@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 680 510" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', system-ui, sans-serif">
+  <style>
+    .title-main { font-size: 19px; font-weight: 600; fill: #111827; }
+    .caption { font-size: 12px; font-weight: 400; fill: #6B7280; }
+    .caption-accent { font-size: 11px; font-weight: 500; fill: #0F766E; letter-spacing: 0.02em; }
+    .caption-neutral { font-size: 11px; font-weight: 500; fill: #57534E; letter-spacing: 0.02em; }
+
+    .ideology { fill: #F5F0E8; stroke: #D6CDBC; stroke-width: 1; }
+    .ideology-t { font-size: 15px; font-weight: 500; fill: #1F2937; }
+    .ideology-t-base { font-size: 16px; font-weight: 600; fill: #1F2937; }
+    .ideology-ts { font-size: 12px; font-weight: 400; fill: #6B7280; }
+    .ideology-badge { fill: #78716C; }
+
+    .engineering { fill: #CCFBF1; stroke: #14B8A6; stroke-width: 1.5; }
+    .engineering-t { font-size: 16px; font-weight: 600; fill: #0F766E; }
+    .engineering-ts { font-size: 12px; font-weight: 400; fill: #115E59; }
+    .engineering-badge { fill: #0F766E; }
+
+    .badge-text { font-size: 13px; font-weight: 500; fill: #FFFFFF; }
+    .bracket { fill: none; stroke-width: 1; }
+    .bracket-ideology { stroke: #A8A29E; }
+    .bracket-engineering { stroke: #14B8A6; }
+
+    @media (prefers-color-scheme: dark) {
+      .title-main { fill: #F9FAFB; }
+      .caption { fill: #9CA3AF; }
+      .caption-accent { fill: #5EEAD4; }
+      .caption-neutral { fill: #A8A29E; }
+
+      .ideology { fill: #292524; stroke: #44403C; }
+      .ideology-t, .ideology-t-base { fill: #F5F5F4; }
+      .ideology-ts { fill: #A8A29E; }
+      .ideology-badge { fill: #A8A29E; }
+
+      .engineering { fill: #064E3B; stroke: #2DD4BF; }
+      .engineering-t { fill: #99F6E4; }
+      .engineering-ts { fill: #5EEAD4; }
+      .engineering-badge { fill: #99F6E4; }
+
+      .badge-text { fill: #111827; }
+      .bracket-ideology { stroke: #78716C; }
+      .bracket-engineering { stroke: #2DD4BF; }
+    }
+  </style>
+
+  <text x="340" y="40" text-anchor="middle" class="title-main">Vibe Writing 的五个要素</text>
+  <text x="340" y="62" text-anchor="middle" class="caption">四层作者理念，一层工程放大器，自底向上支撑</text>
+
+  <rect x="90" y="90" width="500" height="80" rx="8" class="engineering"/>
+  <circle cx="120" cy="130" r="16" class="engineering-badge"/>
+  <text x="120" y="135" text-anchor="middle" class="badge-text">⑤</text>
+  <text x="152" y="124" class="engineering-t">可复用 Skill</text>
+  <text x="152" y="148" class="engineering-ts">工程模板，一键重复触发；把前四者打包，效率放大一个量级</text>
+  <text x="570" y="107" text-anchor="end" class="caption-accent">顶层 · 工程放大器</text>
+
+  <rect x="90" y="178" width="500" height="60" rx="8" class="ideology"/>
+  <circle cx="120" cy="208" r="14" class="ideology-badge"/>
+  <text x="120" y="213" text-anchor="middle" class="badge-text">④</text>
+  <text x="152" y="203" class="ideology-t">流程工程化</text>
+  <text x="152" y="225" class="ideology-ts">把写作拆成可复用的组件，每步独立优化</text>
+
+  <rect x="90" y="246" width="500" height="60" rx="8" class="ideology"/>
+  <circle cx="120" cy="276" r="14" class="ideology-badge"/>
+  <text x="120" y="281" text-anchor="middle" class="badge-text">③</text>
+  <text x="152" y="271" class="ideology-t">框架先行</text>
+  <text x="152" y="293" class="ideology-ts">搭骨架，不放弃控制权；草稿越清楚效率越高</text>
+
+  <rect x="90" y="314" width="500" height="60" rx="8" class="ideology"/>
+  <circle cx="120" cy="344" r="14" class="ideology-badge"/>
+  <text x="120" y="349" text-anchor="middle" class="badge-text">②</text>
+  <text x="152" y="339" class="ideology-t">个人风格</text>
+  <text x="152" y="361" class="ideology-ts">把自己的写作 DNA 显式告诉 AI，避免 AI 味</text>
+
+  <rect x="90" y="382" width="500" height="80" rx="8" class="ideology"/>
+  <circle cx="120" cy="422" r="16" class="ideology-badge"/>
+  <text x="120" y="427" text-anchor="middle" class="badge-text">①</text>
+  <text x="152" y="416" class="ideology-t-base">原创力</text>
+  <text x="152" y="440" class="ideology-ts">没有观点，vibe writing 启动不了；AI 放大你已有的，不创造你没有的</text>
+  <text x="570" y="455" text-anchor="end" class="caption-neutral">根基</text>
+
+  <path d="M 75 180 L 65 180 L 65 460 L 75 460" class="bracket bracket-ideology"/>
+  <text x="50" y="320" text-anchor="middle" class="caption-neutral" transform="rotate(-90, 50, 320)">作者理念层 · 人的部分</text>
+
+  <path d="M 75 92 L 65 92 L 65 168 L 75 168" class="bracket bracket-engineering"/>
+  <text x="50" y="130" text-anchor="middle" class="caption-accent" transform="rotate(-90, 50, 130)">工程层</text>
+
+  <text x="340" y="492" text-anchor="middle" class="caption">每一层都依赖下层支撑。真正的杠杆，是顶层把前四层打包</text>
+</svg>
