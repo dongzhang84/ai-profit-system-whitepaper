@@ -4,20 +4,20 @@ Deep-analysis articles in Chinese by [@snowboat84](https://x.com/snowboat84), co
 
 ## Articles
 
-| # | Article | X Post | X Views | 知乎 |
-|---|---------|--------|---------|------|
-| 12 | [SpaceX 立志传（一）：赌上全部的最后一次发射](SpaceX%20立志传（一）：赌上全部的最后一次发射.md) | — | — | — |
-| 11 | [估值290亿美元的套壳公司，正在被自己的房东杀死](估值290亿美元的套壳公司，正在被自己的房东杀死.md) | — | — | — |
-| 10 | [AI将如何颠覆教育，普通人又应该如何抢夺教育新的生态位](AI将如何颠覆教育，普通人又应该如何抢夺教育新的生态位.md) | [link](https://x.com/snowboat84/status/2044932338262667509) | 3.5k | [link](https://zhuanlan.zhihu.com/p/2027582531520708691) |
-| 9 | [学物理的八方英雄们，物理学已死，请转行搞AI](学物理的八方英雄们，物理学已死，请转行搞AI.md) | [link](https://x.com/snowboat84/status/2044584627046920278) | 1.3k | [link](https://zhuanlan.zhihu.com/p/2027392166075406203) |
-| 8 | [不会编程、没有融资、没有员工，他怎么一个人做到年入2000万](不会编程、没有融资、没有员工，他怎么一个人做到年入2000万.md) | [link](https://x.com/snowboat84/status/2044216044575998136) | 3.3k | [link](https://zhuanlan.zhihu.com/p/2027291547884897412) |
-| 7 | [兄弟们想清楚：究竟是你为X打工，还是X为你打工？](兄弟们想清楚：究竟是你为X打工，还是X为你打工？.md) | [link](https://x.com/snowboat84/status/2043842017260908743) | 3.8k | — |
-| 6 | [一人公司盈利四亿美元：是骗子，还是可复制的红利？](一人公司盈利四亿美元：是骗子，还是可复制的红利？.md) | [link](https://x.com/snowboat84/status/2043493870265422223) | 0.8k | [link](https://zhuanlan.zhihu.com/p/2026950177747903194) |
-| 5 | [2026第一季度大裁员，AI是背锅侠吗？](2026第一季度大裁员，AI是背锅侠吗？.md) | [link](https://x.com/snowboat84/status/2042766853404307931) | 2.8k | — |
-| 4 | [重返星辰大海：这次绕月飞行有意义吗？](archive/重返星辰大海：这次绕月飞行有意义吗？.md) | [link](https://x.com/snowboat84/status/2042405716380835998) | 4.6k | [link](https://zhuanlan.zhihu.com/p/2026252685142242468) |
-| 3 | [张雪峰在美国为什么无法成功](archive/张雪峰在美国为什么无法成功.md) | [link](https://x.com/snowboat84/status/2042045634245746743) | 2.3k | [link](https://zhuanlan.zhihu.com/p/2026250301347243657) |
-| 2 | [2026 企业尸检报告：不用AI，你的公司能活过今年吗？](archive/2026%20企业尸检报告：不用AI，你的公司能活过今年吗？.md) | [link](https://x.com/snowboat84/status/2041672997959057517) | 100+ | — |
-| 1 | 兄弟们，我创业失败了，人生完整了 | [link](https://x.com/snowboat84/status/2040948420391940272) | 1.4k | — |
+| # | Date | Article | X Post | X Views | 知乎 |
+|---|------|---------|--------|---------|------|
+| 12 | — | [SpaceX 立志传（一）：赌上全部的最后一次发射](SpaceX%20立志传（一）：赌上全部的最后一次发射.md) | — | — | — |
+| 11 | — | [估值290亿美元的套壳公司，正在被自己的房东杀死](估值290亿美元的套壳公司，正在被自己的房东杀死.md) | — | — | — |
+| 10 | 2026-04-16 | [AI将如何颠覆教育，普通人又应该如何抢夺教育新的生态位](AI将如何颠覆教育，普通人又应该如何抢夺教育新的生态位.md) | [link](https://x.com/snowboat84/status/2044932338262667509) | 3.5k | [link](https://zhuanlan.zhihu.com/p/2027582531520708691) |
+| 9 | 2026-04-15 | [学物理的八方英雄们，物理学已死，请转行搞AI](学物理的八方英雄们，物理学已死，请转行搞AI.md) | [link](https://x.com/snowboat84/status/2044584627046920278) | 1.3k | [link](https://zhuanlan.zhihu.com/p/2027392166075406203) |
+| 8 | 2026-04-14 | [不会编程、没有融资、没有员工，他怎么一个人做到年入2000万](不会编程、没有融资、没有员工，他怎么一个人做到年入2000万.md) | [link](https://x.com/snowboat84/status/2044216044575998136) | 3.3k | [link](https://zhuanlan.zhihu.com/p/2027291547884897412) |
+| 7 | 2026-04-13 | [兄弟们想清楚：究竟是你为X打工，还是X为你打工？](兄弟们想清楚：究竟是你为X打工，还是X为你打工？.md) | [link](https://x.com/snowboat84/status/2043842017260908743) | 3.8k | — |
+| 6 | 2026-04-12 | [一人公司盈利四亿美元：是骗子，还是可复制的红利？](一人公司盈利四亿美元：是骗子，还是可复制的红利？.md) | [link](https://x.com/snowboat84/status/2043493870265422223) | 0.8k | [link](https://zhuanlan.zhihu.com/p/2026950177747903194) |
+| 5 | 2026-04-10 | [2026第一季度大裁员，AI是背锅侠吗？](2026第一季度大裁员，AI是背锅侠吗？.md) | [link](https://x.com/snowboat84/status/2042766853404307931) | 2.8k | — |
+| 4 | 2026-04-09 | [重返星辰大海：这次绕月飞行有意义吗？](archive/重返星辰大海：这次绕月飞行有意义吗？.md) | [link](https://x.com/snowboat84/status/2042405716380835998) | 4.6k | [link](https://zhuanlan.zhihu.com/p/2026252685142242468) |
+| 3 | 2026-04-08 | [张雪峰在美国为什么无法成功](archive/张雪峰在美国为什么无法成功.md) | [link](https://x.com/snowboat84/status/2042045634245746743) | 2.3k | [link](https://zhuanlan.zhihu.com/p/2026250301347243657) |
+| 2 | 2026-04-07 | [2026 企业尸检报告：不用AI，你的公司能活过今年吗？](archive/2026%20企业尸检报告：不用AI，你的公司能活过今年吗？.md) | [link](https://x.com/snowboat84/status/2041672997959057517) | 100+ | — |
+| 1 | 2026-04-05 | 兄弟们，我创业失败了，人生完整了 | [link](https://x.com/snowboat84/status/2040948420391940272) | 1.4k | — |
 
 ## Writing Workflow
 
