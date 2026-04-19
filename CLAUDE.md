@@ -17,12 +17,20 @@
 
 - `/write-article [文件路径或主题]`：把零散笔记整理成结构完整的文章。流程：收集素材 → 分析规划 → 事实核查 → 撰写 → 输出带参考文献的 Markdown 文件
 - `/traffic-review [时间范围或文章编号]`：基于 README 里的 X 流量数据和文章开头，分析题材/标题/开头框架与流量的关系，输出复盘到 `analysis/` 文件夹
+- `/baoyu-diagram`：生成 SVG 示意图到 `diagram/{slug}/`。本地设计规则见 `.claude/skills/baoyu-diagram/references/design-system.md`（反推自已有四张图）
+
+## 图表转 PNG
+
+SVG 用 CSS 变量做亮暗切换，rsvg-convert 不支持，直接转会一片漆黑。必须用 `python3 scripts/svg-to-png.py <svg> [-w 1600]`，它会先剥掉 `@media dark` 块、把 `:root` 亮色 hex 值就地替换再转。
 
 ## 项目结构
 
 - `*.md`（根目录）：各篇文章
 - `archive/`：10 天以上的旧文章
 - `analysis/`：流量复盘分析
+- `diagram/{slug}/`：示意图（`diagram.svg` + `diagram.png` + `plan.md`）
+- `scripts/svg-to-png.py`：SVG → PNG 转换脚本
 - `.claude/skills/write-article/`：文章整理 skill
 - `.claude/skills/traffic-review/`：流量复盘 skill
+- `.claude/skills/baoyu-diagram/references/`：本地 diagram 设计规则
 - `reading-list.md`：推荐阅读书单
