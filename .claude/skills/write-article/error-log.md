@@ -226,3 +226,29 @@
   - 写完 Grep `被.*(掏空\|击穿\|撕裂\|重塑\|改写\|解构\|瓦解\|撼动\|折叠\|缝合)`，命中即改写
   - 段首出现"时代在 / 历史在 / 技术在 / 叙事在"等无生命主语的拟人动作，出现 1 次即改写
 - 📍 **背景**：读者反馈"一看到'内核被掏空'就知道是 AI 文"。单个词无辜，但句式密度稍高全篇报废。把三个子模式（视觉动词套抽象、抽象主语拟人、抽象名词堆叠）合进一条，避免规则膨胀
+
+## [2026-04-21] No back-translation of direct quotes
+
+- ❌ **Wrong**: Translating content inside direct-quote marks from a rendered translation back into its original language without verifying the actual source-language text. Example: a Chinese article's 引号 around an English speaker's words; I translate those Chinese characters back into English without checking what the speaker actually said on the original podcast / press conference / paper.
+- ✅ **Right**: For anything inside direct-quote marks (`"..."`, `「...」`, `> blockquote`), find the source-language verbatim via WebSearch before including it. If the quote is paraphrased or compressed by the Chinese author, drop the quote marks and render as indirect speech instead.
+- 🔒 **Hard constraint**: Before starting any cross-language translation, Grep every `"..."`, `「...」`, and `> ` block in the source. For each, either (a) WebSearch the source-language verbatim and use it, or (b) unquote and render as indirect speech. Never translate the rendered version back to its original language.
+- 📍 **Context**: Jensen Huang's "enriched uranium" / "woke up a loser" lines on Dwarkesh's podcast are English originals. The Chinese article's 引号 content was the author's compressed translation. First-pass English translation re-translated the Chinese back, which would have misquoted him. Caught before publish.
+
+## [2026-04-21] English register and sentence rhythm
+
+- ❌ **Wrong**:
+  - Runs of 3+ short 5-to-7-word sentences in a row (staccato rhythm)
+  - Sentences with 4+ commas or three stacked subclauses
+  - Narrative paragraphs opening with `First, ... Second, ... Third, ... Fourth, ...` enumeration
+  - Sentence fragments where a full clause is needed (e.g. "X, former official Y, now Z" with no verb)
+  - Filler phrases: "in some respects," "that being said," "on the other hand," "to some degree," "in many ways"
+  - Weak verb + adverb where a strong verb works (`said loudly` vs `shouted`)
+- ✅ **Right**:
+  - Alternate short (5-10 word) and medium (12-20 word) sentences; an occasional longer sentence for texture
+  - Max 2-3 commas per sentence; above that, split or restructure with semicolon
+  - Narrative connectors over numeric enumeration: "The biggest one is ..." / "A deeper problem is ..." / "And there's the paradox ..."
+  - Strong verbs (pushed, anchored, flooded, dropped), not weak verb + adverb
+  - Register target: The Economist / The Atlantic argument-driven long-form. Plain words, concrete nouns, active voice
+  - Em dash `—` is allowed in English for rhythm (the `——` ban applies only to Chinese prose)
+- 🔒 **Hard constraint**: After first draft of any English content, Grep `,[^,]*,[^,]*,[^,]*,` (4+ commas in one sentence) and rewrite each hit. Scan visually for runs of 3+ short sentences and merge one with a semicolon or restructure.
+- 📍 **Context**: First English translation of the Jensen Huang article had too-long subclause-stacked sentences in some paragraphs and too-choppy 5-word sentences in others. User flagged: "sentences sometimes too long, sometimes too many commas, sometimes broken into too many short pieces."
