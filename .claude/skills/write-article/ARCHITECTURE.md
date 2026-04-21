@@ -7,7 +7,7 @@
 把个人写作流程从"经验 + 口头约定"升级为**可追加、可审计、可复用的工程化系统**：
 
 - 每一条写作规则有明确归属文件，不散落在对话里
-- 错题可追加沉淀，下次写作自动读入，不靠记忆
+- 规则可追加沉淀，下次写作自动读入，不靠记忆
 - 流程、人设、风格、结构互相解耦，改一处不污染另一处
 - 维护者（人）看任何一个维度只看一个文件，不在 wall of text 里翻找
 
@@ -24,10 +24,10 @@
 
 ## 架构原则
 
-1. **单一职责**：每个文件只管一个维度（流程 / 人设 / 风格 / 错题 / 结构 / 输出 / 引用）
+1. **单一职责**：每个文件只管一个维度（流程 / 人设 / 风格 / 规则 / 结构 / 输出 / 引用）
 2. **显式导入**：`SKILL.md` 执行开头明确 Read 所有配套文件，不依赖隐式加载
-3. **独立演化**：高频变化的文件（`error-log.md`）与低频变化的文件（`persona.md`）物理分离
-4. **可追加优先**：`error-log.md` 为 append-only，不做结构化重组，降低写入阻力
+3. **独立演化**：高频变化的文件（`writing-rules.md`）与低频变化的文件（`persona.md`）物理分离
+4. **可追加优先**：`writing-rules.md` 为 append-only，不做结构化重组，降低写入阻力
 5. **工程化 ≠ token 优化**：多文件方案的 token 成本与单文件相同，价值在维护者的认知负担
 
 ## 文件结构
@@ -38,7 +38,7 @@
 ├── persona.md         # 作者身份与硬性人设规则
 ├── style.md           # 语气、段落、标题、数字、地域范围
 ├── structure.md       # 章节编号、案例要求、对比表格规范
-├── error-log.md       # 错题本（append-only）
+├── writing-rules.md       # 写作规则（append-only）
 ├── output-format.md   # 参考文献 + 原始草稿附录模板
 ├── references/
 │   └── images.md      # 配图来源清单（Wikimedia、NASA 等）
@@ -51,7 +51,7 @@
 
 **只做两件事**：
 
-1. 执行开始前 Read 所有配套文件（`persona.md` / `style.md` / `structure.md` / `error-log.md` / `output-format.md`）
+1. 执行开始前 Read 所有配套文件（`persona.md` / `style.md` / `structure.md` / `writing-rules.md` / `output-format.md`）
 2. 定义流程步骤：收集素材 → 分析规划 → 事实核查 → 扩写 → 自检 → 输出
 
 **不包含具体规则**。所有"怎么写""写成什么样"的规则下沉到配套文件。
@@ -84,9 +84,9 @@
 
 低频变化。
 
-### error-log.md
+### writing-rules.md
 
-**Append-only 错题清单**。每条包含：
+**Append-only 规则清单**。每条包含：
 
 - 日期
 - 错误类型简述
@@ -123,16 +123,16 @@
 1. **创建骨架**：建立所有配套文件，空内容
 2. **拆分 SKILL.md**：把现有 ~130 行 SKILL.md 按维度拆进各配套文件
 3. **精简 SKILL.md**：只保留编排层（流程 + Read 指令）
-4. **初始化 error-log.md**：从现有质量自检清单 + 用户 feedback memory 里提取初始错题
+4. **初始化 writing-rules.md**：从现有质量自检清单 + 用户 feedback memory 里提取初始规则
 5. **验证**：用一篇现有草稿跑一次 `/write-article`，确认所有配套文件被读取、规则生效
-6. **迭代**：后续每次用户反馈 → append 到 `error-log.md`，不改 `SKILL.md`
+6. **迭代**：后续每次用户反馈 → append 到 `writing-rules.md`，不改 `SKILL.md`
 
 ## 未来扩展（不现在做）
 
 如果后续出现以下需求再考虑：
 
-- 多 skill 复用 `style.md` / `error-log.md`：提取到 repo 根的 `.claude/shared/`
-- 错题本膨胀到难以维护：按主题分文件（`error-log-facts.md` / `error-log-tone.md`）
+- 多 skill 复用 `style.md` / `writing-rules.md`：提取到 repo 根的 `.claude/shared/`
+- 写作规则膨胀到难以维护：按主题分文件（`writing-rules-facts.md` / `writing-rules-tone.md`）
 - 需要 spec-driven 写作：新增 `spec-template.md`，流程插入 spec 阶段
 
 以上均为 YAGNI，当前不实现。

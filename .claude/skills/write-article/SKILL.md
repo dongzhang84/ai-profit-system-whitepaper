@@ -16,7 +16,7 @@ argument-hint: [输入文件或内容描述]
 1. `.claude/skills/write-article/persona.md`：作者人设
 2. `.claude/skills/write-article/style.md`：语言、段落、标题、数字、地域范围
 3. `.claude/skills/write-article/structure.md`：章节编号、案例、数据、理论联系现实、结论要求
-4. `.claude/skills/write-article/error-log.md`：错题本（append-only 禁区清单）
+4. `.claude/skills/write-article/writing-rules.md`：写作规则（append-only 禁区清单）
 5. `.claude/skills/write-article/output-format.md`：参考文献与原始草稿附录格式
 
 配图相关（`.claude/skills/write-article/references/images.md`）只在用户主动询问配图时加载。
@@ -52,7 +52,7 @@ argument-hint: [输入文件或内容描述]
 
 ## 第五步：自检
 
-对照 `error-log.md` **逐条**自检（现 16 条），特别注意：
+对照 `writing-rules.md` **逐条**自检（现 16 条），特别注意：
 
 - 用 Grep 搜索 `——`，确认正文（不含原始草稿附录）为零
 - 油腻话术关键词搜索
@@ -75,6 +75,6 @@ argument-hint: [输入文件或内容描述]
 - 末尾附原始草稿（引用格式，原样保留）
 - 向用户返回：文件路径、主节标题清单、大致字数、参考文献条数
 
-## 错题追加
+## 规则追加
 
-用户反馈"别再 X"时，向 `.claude/skills/write-article/error-log.md` 追加一条新条目（append-only，不修改历史条目），不要动 `SKILL.md` 或其他配置文件。
+用户反馈"别再 X"时，向 `.claude/skills/write-article/writing-rules.md` 追加一条新条目（append-only，不修改历史条目），不要动 `SKILL.md` 或其他配置文件。
