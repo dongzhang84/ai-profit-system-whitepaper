@@ -28,6 +28,74 @@ Articles are drafted as rough notes, then expanded into structured pieces using 
 - References with source links
 - Original draft appended as an appendix
 
+## Cover Images
+
+Article covers use a single house style: **typography-dark**. Black background, two-line Chinese title, line 1 in off-white (setup), line 2 in orange (the main claim). No illustrations, no decoration. 16:9, 2400×1350.
+
+### How to make a new cover
+
+One command:
+
+```bash
+python3 scripts/cover-typography-dark.py \
+  --out cover-image/<slug>/cover.png \
+  --line1 "<setup line>" \
+  --line2 "<payload line>"
+```
+
+Where:
+
+- `<slug>` is a short kebab-case folder name for the article (e.g. `three-claude-skills`)
+- `<setup line>` is the first, softer half of the title — rendered in off-white
+- `<payload line>` carries the main claim — rendered in orange so the eye lands on it
+
+Example:
+
+```bash
+python3 scripts/cover-typography-dark.py \
+  --out cover-image/three-claude-skills/cover.png \
+  --line1 "每个人都应该使用的" \
+  --line2 "三个最有用的 Claude Skill"
+```
+
+### Design defaults
+
+| Setting | Value |
+|---|---|
+| Background | `#000000` |
+| Line 1 color | `#F5F5F5` (off-white) |
+| Line 2 color | `#F26B2C` (orange) |
+| Font | Hiragino Sans GB W6 (macOS system font) |
+| Aspect | 16:9 |
+| Canvas | 2400×1350 |
+
+Font size is auto-computed so the longer of the two lines fills 88% of canvas width.
+
+### Overrides
+
+The script accepts flags if you need to deviate (rarely — the house style should stay consistent):
+
+- `--color1 HEX` / `--color2 HEX` · change per-line colors (e.g. `--color2 FFFFFF` for an all-white variant)
+- `--bg HEX` · change background (e.g. `--bg FAFAFA` for a light variant)
+- `--width 1080` · smaller canvas
+- `--aspect 1:1` · square for Xiaohongshu / `--aspect 3:2` for 公众号
+
+### When Claude asks about cover design
+
+When invoking `/baoyu-cover-image`, Claude loads `.claude/skills/baoyu-cover-image/EXTEND.md` which points to this preset by default. Unless you explicitly ask for a different palette or layout, it should go straight to running the command above, no questions asked.
+
+### Output location
+
+Covers live in `cover-image/<slug>/`, one folder per article:
+
+```
+cover-image/
+└── three-claude-skills/
+    ├── cover.png              # the rendered cover
+    ├── render_cover.py        # article-specific wrapper (optional, historical)
+    └── prompts/cover.md       # design prompt (for reference / variants)
+```
+
 ## Reading List
 
 A curated reading list ([reading-list.md](reading-list.md)) on AI & business transformation, organized in four stages:
