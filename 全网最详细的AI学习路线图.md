@@ -23,9 +23,9 @@
 
 如果你真的想集中一段时间内学到一定的 AI 知识，并且最终可以落地，我建议大多数人走第四条，即 AI/ML 工程岗。工程岗需求比算法岗大一个量级，这个差距在数据上很直观：
 
-全球层面，LinkedIn 美国市场实时数据显示 ML 工程类岗位在招 85,000+ 个，ML Research Engineer 27,000+ 个，纯 ML Researcher 只有 11,000+ 个，工程岗对研究岗大约 8:1（[LinkedIn ML jobs](https://www.linkedin.com/jobs/machine-learning-jobs)）。AI Engineer 在 LinkedIn 2026 "Jobs on the Rise" 榜单上位列全球增速第一（[HR Leader 报道](https://www.hrleader.com.au/business/27698-ai-engineer-tops-linkedin-s-2026-jobs-on-the-rise-list)）。
+全球层面，LinkedIn 美国市场实时数据显示 ML 工程类岗位在招 85,000+ 个，ML Research Engineer 27,000+ 个，纯 ML Researcher 只有 11,000+ 个，工程岗对研究岗大约 8:1。AI Engineer 在 LinkedIn 2026 "Jobs on the Rise" 榜单上位列全球增速第一。
 
-中国层面，纯研究型职位集中在百度研究院、阿里达摩院、字节 AI Lab、腾讯 AI Lab 这几家，全国加起来每年招聘名额只有几百到上千。部署 AI 的工程岗遍布几乎所有中大型互联网公司、金融、医疗、制造业。百度 2026 年 AI 扩招同比 +60%，其中绝大多数是能把模型落地的工程岗（[Global Times 报道](https://www.globaltimes.cn/page/202506/1336180.shtml)）。
+中国层面，纯研究型职位集中在百度研究院、阿里达摩院、字节 AI Lab、腾讯 AI Lab 这几家，全国加起来每年招聘名额只有几百到上千。部署 AI 的工程岗遍布几乎所有中大型互联网公司、金融、医疗、制造业。百度 2026 年 AI 扩招同比 +60%，其中绝大多数是能把模型落地的工程岗。
 
 结构性原因很清楚：做 AI 基础研究的公司全球几百家，部署 AI 的公司 2026 年已经是几万家。研究岗是漏斗顶端的一小撮，工程岗是漏斗下游的大盘。真正有付费意愿的公司要的是能 ship 的人。只会推导 AI 模型背后数学公式的博士，面试反而卡在工程关。
 
