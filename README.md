@@ -6,7 +6,9 @@ Deep-analysis articles in Chinese by [@snowboat84](https://x.com/snowboat84), co
 
 | # | Date | Article | X Post | X Views | 知乎 |
 |---|------|---------|--------|---------|------|
-| 13 | 4/22 | [SpaceX 立志传（一）：赌上全部的最后一次发射](SpaceX%20立志传（一）：赌上全部的最后一次发射.md) | [link](https://x.com/snowboat84/status/2046743964192276766) | — | [link](https://zhuanlan.zhihu.com/p/2028372635839394803) |
+| 15 | 4/22 | [长篇科普：卡拉比—丘成桐定理，及其物理意义（下）](长篇科普：卡拉比—丘成桐定理，及其物理意义（下）.md) | — | — | [link](https://zhuanlan.zhihu.com/p/2029339354934289203) |
+| 14 | 4/22 | [每个人都应该使用的三个最有用的 Claude Skill](每个人都应该使用的三个最有用的%20Claude%20Skill.md) | [link](https://x.com/snowboat84/status/2047110768773197834) | — | — |
+| 13 | 4/21 | [SpaceX 立志传（一）：赌上全部的最后一次发射](SpaceX%20立志传（一）：赌上全部的最后一次发射.md) | [link](https://x.com/snowboat84/status/2046743964192276766) | — | [link](https://zhuanlan.zhihu.com/p/2028372635839394803) |
 | 12 | 4/20 | [估值290亿美元的套壳公司，正在被自己的房东杀死](估值290亿美元的套壳公司，正在被自己的房东杀死.md) | [link](https://x.com/snowboat84/status/2046380497627230607) | — | [link](https://www.zhihu.com/question/1946791222762014096/answer/2029844198262673431) |
 | 11 | 4/19 | [黄仁勋和主持人吵红了脸：芯片封锁中国，美国到底能不能打赢？](黄仁勋和主持人吵红了脸：芯片封锁中国，美国到底能不能打赢？（长篇分析）.md) | [link](https://x.com/snowboat84/status/2046022377830801725) | — | [link](https://www.zhihu.com/question/2028405023437014568/answer/2029458215104988529) |
 | 10 | 4/16 | [AI将如何颠覆教育，普通人又应该如何抢夺教育新的生态位](AI将如何颠覆教育，普通人又应该如何抢夺教育新的生态位.md) | [link](https://x.com/snowboat84/status/2044932338262667509) | 3.5k | [link](https://zhuanlan.zhihu.com/p/2027582531520708691) |
