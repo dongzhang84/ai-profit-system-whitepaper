@@ -110,21 +110,31 @@ ChatGPT 之后，这堆任务几乎全被一个通用大模型收编了。翻译
 
 **项目驱动学习。** AI 这一行的知识是做会的，光看不会。模型接口每半年一换、框架每季度一升、最佳实践随时在改，你花三个月啃完一本教材，书里的示例代码可能已经跑不通了。我坚持项目驱动学习（project-based learning）的原因就在这里：通过动手做一个具体能跑的东西来掌握需要用到的知识。大部头的书和长视频教程是查漏补缺用的工具，不应该当成学习的主路。
 
-**三三制节奏。** 光说"做项目"还不够，项目和项目之间需要能力阶梯的概念，不然容易反复做同一个难度级的东西原地打转。我借用林彪"三三制"的比喻：一个战斗小组三人配合前进。放到学习上，每三个项目打磨一层能力，然后整组推进到下一层。每一层都是一个具体可验证的技能落地点，比如"能独立搭一个 RAG 系统"。只停在"我懂了 Transformer"这种概念级理解，算没过层。
+**三三制节奏。** 光说"做项目"还不够，项目和项目之间需要能力阶梯的概念，不然容易反复做同一个难度级的东西原地打转。在这个方面，我特别喜欢 101 元帅的三三制方式：一个战斗小组三人配合前进。放到学习上，每三个项目打磨一层能力，然后整组推进到下一层。每一层都是一个具体可验证的技能落地点。
+
+**Vibe Coding + 费曼学习法。** 到这一步你可能想问：做项目我一行代码都不会写怎么办？今天的答案是 Vibe Coding。这个词是 Andrej Karpathy 在 2025 年初提出来的，意思是你不必亲手敲下每一行代码，用自然语言描述你想要什么，让 Claude 或 Cursor 给你生成，你看一下、试一下、改一下，再把反馈回给 AI。代码从"手搓"变成"和 AI 对话磨出来"。对入门者，这让项目启动的阻力骤降：以前你要先啃 Python 语法、配环境、学库，今天你直接描述"我要一个能和 GPT-4 聊天的命令行工具"，AI 十秒内给你一版可跑的。但 vibe coding 有副作用：你容易跑通一个东西，其实不懂它在做什么。所以要配一个反向的方法：费曼学习法。这是物理学家 Richard Feynman 提出的，核心是如果你能用简单的话把一个概念讲清楚给完全不懂的人听，你就真懂了；讲不清楚，就是在假装懂。放到 AI 学习上：每写完一段 vibe 产物，合上编辑器，用白话把这段代码在干什么完整讲一遍，哪里讲不下去，哪里就是你该补的知识。两个方法论要组合用，vibe 让你快速出活，费曼让你真正内化。光用前者你会变成只会按回车的 prompt 工人，光用后者你会慢到放弃。
 
 下面以"LLM 方向 + 工程岗"为例，把这套阶梯摆开。
 
 ## 第一层：把 API 用熟
 
-这一层的目标是摆脱"只会跟 ChatGPT 网页聊天"的阶段，能独立用 API 搭一个别人能访问的 app。
+这一层的目标是能独立用 LLM API 搭一个别人能访问的 app。但在动手之前，先过一遍这一层会逼你搞懂的基础概念。
 
-**项目 1** · 调用一个 LLM API（OpenAI、Claude、DeepSeek 任选）写一个最简单的命令行 chatbot。搞清楚 system prompt、user prompt、多轮对话 history 这些基本概念。
+**什么是 API？** API 全称 Application Programming Interface。你调用 OpenAI 或 Anthropic 的 API，本质上是在你的机器和服务商的服务器之间走一次 HTTP 请求：你把 prompt 打包成 JSON 发过去，服务器跑完模型把回复打包成 JSON 发回来。理解了这个"客户端-服务端"的架构，后面 rate limiting、latency、streaming、token cost 这些概念才有地方挂。
 
-**项目 2** · 给这个 chatbot 套一个 Web 界面（Gradio、Streamlit 或 Next.js 都行），顺带集成 prompt engineering 的几个基本技巧：few-shot 示例、chain-of-thought、结构化输出。
+**用什么语言？** Python 是默认选项，90% 的 LLM 相关代码、库、示例都是 Python。如果你后端本来写 Node，也可以用官方的 TypeScript SDK，体验差不多。零基础起步的话直接上 Python，生态成熟度远高。
 
-**项目 3** · 把 app 部署到一个公网可访问的地方（Vercel、Modal、Railway 这类 serverless 平台），给你的朋友发链接让他们试用。
+**你的 Python 够不够？** 诚实自测一下：你能看懂 `async def`、`with open(...) as f`、列表推导式这些写法吗？会配 virtualenv、知道 `pip install` 在干什么吗？如果模糊，暂时别急着调 API，先花三五天补一下 Python 基础。网上 Corey Schafer 的 YouTube Python 系列，或者 Python Crash Course 这本书，挑一个过一遍就够。
 
-做完这三个项目，你手里就有了 LLM 工程岗的底层工具包：API 调用、prompt 设计、前后端对接、部署流程。
+搞清楚上面这几件事，开始做项目。
+
+**项目 1 · 命令行 chatbot。** 调用一个 LLM API（OpenAI、Claude、DeepSeek 任选），写一个最简单的命令行聊天工具。重点搞清楚这几个概念：system prompt（给模型的角色设定）、user prompt（用户说的话）、assistant（模型回复）、conversation history（多轮对话怎么拼起来再传回 API）。做完用费曼法自测：关掉编辑器，给朋友讲一遍这个程序每一步在做什么，讲得清楚才算过。
+
+**项目 2 · Web 界面 + prompt engineering。** 把命令行 chatbot 套上 Web 界面（Gradio、Streamlit 或 Next.js 都行）。这个项目会逼你第一次正面碰 prompt engineering：为什么模型输出格式老是不对？怎么让它每次都输出合法的 JSON？few-shot 示例放哪、怎么放？chain-of-thought 是什么、什么时候用？这些概念不需要一次学完，在项目里踩到一个学一个。
+
+**项目 3 · 部署上线。** 把 app 部署到公网可访问的地方（Vercel、Modal、Railway 这类 serverless 平台都行）。这个项目会把工程底层的几个概念一并逼出来：API key 怎么安全保存（用 environment variable，别提交到 git）、怎么做 streaming 让用户看到打字机效果、怎么处理 rate limit 和重试、成本和 token 用量怎么监控。
+
+做完这三个项目，你手里就有了 LLM 工程岗的底层工具包：API 调用链路、prompt 设计、前后端对接、部署流程。通过这层的标准：把项目 3 的部署版本讲给另一个做技术的朋友听，他能听明白从"用户按下 Enter"到"GPT 返回答案"中间发生了什么。
 
 ## 第二层：能搭一个 RAG 系统
 
