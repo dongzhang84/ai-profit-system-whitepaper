@@ -34,7 +34,13 @@ Articles are drafted as rough notes, then expanded into structured pieces using 
 
 跟 Claude 说一句："**做封面：第一行文字 / 第二行文字**" 就行，Claude 会自己跑命令出图。
 
-底层是 `python3 scripts/cover.py <slug> "第一行" "第二行"`，要换配色 / 尺寸直接改 `scripts/cover.py` 顶部常量。
+例子：
+
+> **你**："做封面：每个人都应该使用的 / 三个最有用的 Claude Skill"
+>
+> **Claude**：跑 `python3 scripts/cover.py three-claude-skills "每个人都应该使用的" "三个最有用的 Claude Skill"`，产出 `cover-image/three-claude-skills/cover.png`。
+
+Claude 会从上下文推 slug，不用你打。底层是 `python3 scripts/cover.py <slug> "第一行" "第二行"`，要换配色 / 尺寸直接改 `scripts/cover.py` 顶部常量。
 
 ## Reading List
 
