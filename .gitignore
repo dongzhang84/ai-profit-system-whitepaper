@@ -17,3 +17,6 @@ node_modules/
 # Generated images (kept local only)
 cover-images/
 infographic/
+
+# Local scratch / planning (not for repo)
+tmp/
