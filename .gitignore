@@ -3,9 +3,9 @@
 .env*.local
 .env
 
-# Obsidian
-**/.obsidian/workspace.json
-**/.obsidian/workspace-mobile.json
+# Obsidian (entire config, not just workspace state)
+.obsidian/
+**/.obsidian/
 
 # OS
 .DS_Store
@@ -17,6 +17,7 @@ node_modules/
 # Generated images (kept local only)
 cover-images/
 infographic/
+images/
 
 # Local scratch / planning (not for repo)
 tmp/
