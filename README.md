@@ -6,6 +6,7 @@ Deep-analysis articles in Chinese by [@snowboat84](https://x.com/snowboat84), co
 
 | # | Date | Article | X Post | X Views | 知乎 |
 |---|------|---------|--------|---------|------|
+|  | 4/24 | [Jensen vs. the Hawks - Can America Actually Win the Chip Blockade on China?](Jensen%20vs.%20the%20Hawks%20-%20Can%20America%20Actually%20Win%20the%20Chip%20Blockade%20on%20China%3F.md) | [medium](https://medium.com/@dongzhanghz/jensen-vs-the-hawks-can-america-actually-win-the-chip-blockade-on-china-3ecf22e9a12f) | — | [substack](https://substack.com/home/post/p-195400632) |
 | 17 | 4/24 | [兄弟们，真·Vibe Writing 时代到来了](兄弟们，真·Vibe%20Writing%20时代到来了.md) | — | — | — |
 | 16 | 4/23 | [全网最详细的AI学习路线图](全网最详细的AI学习路线图.md) | [link](https://x.com/snowboat84/status/2047457686070141051) | — | [link](https://www.zhihu.com/question/327809761/answer/2030919268590695578) |
 | 15 | 4/22 | [长篇科普：卡拉比—丘成桐定理，及其物理意义（下）](长篇科普：卡拉比—丘成桐定理，及其物理意义（下）.md) | — | — | [link](https://zhuanlan.zhihu.com/p/2029339354934289203) |
