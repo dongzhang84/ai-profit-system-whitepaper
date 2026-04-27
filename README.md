@@ -14,9 +14,9 @@ Deep-analysis articles in Chinese by [@snowboat84](https://x.com/snowboat84), co
 | 13 | 4/21 | [SpaceX 立志传（一）：赌上全部的最后一次发射](SpaceX%20立志传（一）：赌上全部的最后一次发射.md) | [link](https://x.com/snowboat84/status/2046743964192276766) | — | [link](https://zhuanlan.zhihu.com/p/2028372635839394803) |
 | 12 | 4/20 | [估值290亿美元的套壳公司，正在被自己的房东杀死](估值290亿美元的套壳公司，正在被自己的房东杀死.md) | [link](https://x.com/snowboat84/status/2046380497627230607) | — | [link](https://www.zhihu.com/question/1946791222762014096/answer/2029844198262673431) |
 | 11 | 4/19 | [黄仁勋和主持人吵红了脸：芯片封锁中国，美国到底能不能打赢？](黄仁勋和主持人吵红了脸：芯片封锁中国，美国到底能不能打赢？（长篇分析）.md) | [link](https://x.com/snowboat84/status/2046022377830801725) | — | [link](https://www.zhihu.com/question/2028405023437014568/answer/2029458215104988529) |
-| 10 | 4/16 | [AI将如何颠覆教育，普通人又应该如何抢夺教育新的生态位](AI将如何颠覆教育，普通人又应该如何抢夺教育新的生态位.md) | [link](https://x.com/snowboat84/status/2044932338262667509) | 3.5k | [link](https://zhuanlan.zhihu.com/p/2027582531520708691) |
-| 9 | 4/15 | [学物理的八方英雄们，物理学已死，请转行搞AI](学物理的八方英雄们，物理学已死，请转行搞AI.md) | [link](https://x.com/snowboat84/status/2044584627046920278) | 1.3k | [link](https://zhuanlan.zhihu.com/p/2027392166075406203) |
-| 8 | 4/14 | [不会编程、没有融资、没有员工，他怎么一个人做到年入2000万](不会编程、没有融资、没有员工，他怎么一个人做到年入2000万.md) | [link](https://x.com/snowboat84/status/2044216044575998136) | 3.3k | [link](https://zhuanlan.zhihu.com/p/2027291547884897412) |
+| 10 | 4/16 | [AI将如何颠覆教育，普通人又应该如何抢夺教育新的生态位](archive/AI将如何颠覆教育，普通人又应该如何抢夺教育新的生态位.md) | [link](https://x.com/snowboat84/status/2044932338262667509) | 3.5k | [link](https://zhuanlan.zhihu.com/p/2027582531520708691) |
+| 9 | 4/15 | [学物理的八方英雄们，物理学已死，请转行搞AI](archive/学物理的八方英雄们，物理学已死，请转行搞AI.md) | [link](https://x.com/snowboat84/status/2044584627046920278) | 1.3k | [link](https://zhuanlan.zhihu.com/p/2027392166075406203) |
+| 8 | 4/14 | [不会编程、没有融资、没有员工，他怎么一个人做到年入2000万](archive/不会编程、没有融资、没有员工，他怎么一个人做到年入2000万.md) | [link](https://x.com/snowboat84/status/2044216044575998136) | 3.3k | [link](https://zhuanlan.zhihu.com/p/2027291547884897412) |
 | 7 | 4/13 | [兄弟们想清楚：究竟是你为X打工，还是X为你打工？](archive/兄弟们想清楚：究竟是你为X打工，还是X为你打工？.md) | [link](https://x.com/snowboat84/status/2043842017260908743) | 3.8k | — |
 | 6 | 4/12 | [一人公司盈利四亿美元：是骗子，还是可复制的红利？](archive/一人公司盈利四亿美元：是骗子，还是可复制的红利？.md) | [link](https://x.com/snowboat84/status/2043493870265422223) | 0.8k | [link](https://zhuanlan.zhihu.com/p/2026950177747903194) |
 | 5 | 4/10 | [2026第一季度大裁员，AI是背锅侠吗？](archive/2026第一季度大裁员，AI是背锅侠吗？.md) | [link](https://x.com/snowboat84/status/2042766853404307931) | 2.8k | — |
