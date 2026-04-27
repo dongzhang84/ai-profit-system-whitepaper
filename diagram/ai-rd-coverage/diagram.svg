@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 680 660" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Microsoft YaHei', 'Segoe UI', sans-serif">
+<style>
+:root { --fg: #111827; --fg-muted: #6b7280; --fg-soft: #9ca3af; --bg: #ffffff; --layer-bg: #f9fafb; --layer-stroke: #e5e7eb; --accent: #fb7185; --accent-bg: #fff1f2; --accent-stroke: #fca5b1; --ai: #10b981; --ai-bg: #ecfdf5; --ai-stroke: #a7f3d0; }
+@media (prefers-color-scheme: dark) { :root { --fg: #f3f4f6; --fg-muted: #9ca3af; --fg-soft: #6b7280; --bg: #0b0f17; --layer-bg: #1f2937; --layer-stroke: #374151; --accent: #fda4af; --accent-bg: #3f1d24; --accent-stroke: #9f1239; --ai: #34d399; --ai-bg: #064e3b; --ai-stroke: #10b981; } }
+.bg { fill: var(--bg); }
+.pill-mixed { fill: var(--layer-bg); stroke: var(--layer-stroke); stroke-width: 1.2; }
+.pill-ai { fill: var(--ai-bg); stroke: var(--ai-stroke); stroke-width: 1.4; }
+.pill-h { fill: var(--accent-bg); stroke: var(--accent-stroke); stroke-width: 1.4; }
+.title { font-size: 18px; font-weight: 600; fill: var(--fg); }
+.subtitle { font-size: 12px; font-weight: 400; fill: var(--fg-muted); }
+.pt { font-size: 14px; font-weight: 500; fill: var(--fg); }
+.eyebrow { font-size: 12px; font-weight: 500; fill: var(--fg-soft); letter-spacing: 0.08em; }
+.eyebrow-num { fill: var(--accent); font-weight: 600; }
+.tag-ai { font-size: 12px; font-weight: 600; fill: var(--ai); letter-spacing: 0.04em; }
+.caption { font-size: 12px; font-weight: 400; fill: var(--fg-muted); }
+.caption-strong { font-size: 14px; font-weight: 500; fill: var(--fg); }
+.arr { stroke: var(--fg-muted); stroke-width: 1.4; fill: none; }
+.arr-down { stroke: var(--fg-muted); stroke-width: 1.6; fill: none; }
+.head { fill: var(--fg-muted); }
+.legend-mixed { fill: var(--layer-bg); stroke: var(--layer-stroke); stroke-width: 1; }
+.legend-ai { fill: var(--ai-bg); stroke: var(--ai-stroke); stroke-width: 1; }
+.legend-h { fill: var(--accent-bg); stroke: var(--accent-stroke); stroke-width: 1; }
+</style>
+
+<rect class="bg" width="680" height="660" />
+
+<text class="title" x="60" y="42">研发流程 6 阶段：AI 能切多少</text>
+<text class="subtitle" x="60" y="64">加权大约 50% 到 60% AI；开发测试是主战场，决策审批留给人</text>
+
+<text class="eyebrow" x="60" y="114"><tspan class="eyebrow-num">01</tspan> · 需求阶段</text>
+<text class="tag-ai" x="640" y="114" text-anchor="end">AI 30-40%</text>
+<rect class="pill-ai" x="292" y="126" width="40" height="32" rx="6" />
+<text class="pt" x="312" y="147" text-anchor="middle">PRD</text>
+<line class="arr" x1="332" y1="142" x2="342" y2="142" />
+<polygon class="head" points="342,142 338,140 338,144" />
+<rect class="pill-h" x="344" y="126" width="44" height="32" rx="6" />
+<text class="pt" x="366" y="147" text-anchor="middle">评审</text>
+
+<line class="arr-down" x1="340" y1="158" x2="340" y2="208" />
+<polygon class="head" points="340,212 336,206 344,206" />
+
+<text class="eyebrow" x="60" y="200"><tspan class="eyebrow-num">02</tspan> · 设计阶段</text>
+<text class="tag-ai" x="640" y="200" text-anchor="end">AI 40-50%</text>
+<rect class="pill-ai" x="200" y="212" width="56" height="32" rx="6" />
+<text class="pt" x="228" y="233" text-anchor="middle">UI/UX</text>
+<line class="arr" x1="256" y1="228" x2="266" y2="228" />
+<polygon class="head" points="266,228 262,226 262,230" />
+<rect class="pill-h" x="268" y="212" width="44" height="32" rx="6" />
+<text class="pt" x="290" y="233" text-anchor="middle">评审</text>
+<line class="arr" x1="312" y1="228" x2="322" y2="228" />
+<polygon class="head" points="322,228 318,226 318,230" />
+<rect class="pill-mixed" x="324" y="212" width="72" height="32" rx="6" />
+<text class="pt" x="360" y="233" text-anchor="middle">技术方案</text>
+<line class="arr" x1="396" y1="228" x2="406" y2="228" />
+<polygon class="head" points="406,228 402,226 402,230" />
+<rect class="pill-h" x="408" y="212" width="72" height="32" rx="6" />
+<text class="pt" x="444" y="233" text-anchor="middle">技术评审</text>
+
+<line class="arr-down" x1="340" y1="244" x2="340" y2="294" />
+<polygon class="head" points="340,298 336,292 344,292" />
+
+<text class="eyebrow" x="60" y="286"><tspan class="eyebrow-num">03</tspan> · 开发阶段</text>
+<text class="tag-ai" x="640" y="286" text-anchor="end">AI 70-85%</text>
+<rect class="pill-ai" x="184" y="298" width="72" height="32" rx="6" />
+<text class="pt" x="220" y="319" text-anchor="middle">任务拆分</text>
+<line class="arr" x1="256" y1="314" x2="266" y2="314" />
+<polygon class="head" points="266,314 262,312 262,316" />
+<rect class="pill-ai" x="268" y="298" width="88" height="32" rx="6" />
+<text class="pt" x="312" y="319" text-anchor="middle">前后端开发</text>
+<line class="arr" x1="356" y1="314" x2="366" y2="314" />
+<polygon class="head" points="366,314 362,312 362,316" />
+<rect class="pill-ai" x="368" y="298" width="44" height="32" rx="6" />
+<text class="pt" x="390" y="319" text-anchor="middle">联调</text>
+<line class="arr" x1="412" y1="314" x2="422" y2="314" />
+<polygon class="head" points="422,314 418,312 418,316" />
+<rect class="pill-mixed" x="424" y="298" width="72" height="32" rx="6" />
+<text class="pt" x="460" y="319" text-anchor="middle">代码评审</text>
+
+<line class="arr-down" x1="340" y1="330" x2="340" y2="380" />
+<polygon class="head" points="340,384 336,378 344,378" />
+
+<text class="eyebrow" x="60" y="372"><tspan class="eyebrow-num">04</tspan> · 测试阶段</text>
+<text class="tag-ai" x="640" y="372" text-anchor="end">AI 80-90%</text>
+<rect class="pill-ai" x="223" y="384" width="44" height="32" rx="6" />
+<text class="pt" x="245" y="405" text-anchor="middle">自测</text>
+<line class="arr" x1="267" y1="400" x2="277" y2="400" />
+<polygon class="head" points="277,400 273,398 273,402" />
+<rect class="pill-ai" x="279" y="384" width="32" height="32" rx="6" />
+<text class="pt" x="295" y="405" text-anchor="middle">QA</text>
+<line class="arr" x1="311" y1="400" x2="321" y2="400" />
+<polygon class="head" points="321,400 317,398 317,402" />
+<rect class="pill-ai" x="323" y="384" width="82" height="32" rx="6" />
+<text class="pt" x="364" y="405" text-anchor="middle">bug 循环</text>
+<line class="arr" x1="405" y1="400" x2="415" y2="400" />
+<polygon class="head" points="415,400 411,398 411,402" />
+<rect class="pill-h" x="417" y="384" width="40" height="32" rx="6" />
+<text class="pt" x="437" y="405" text-anchor="middle">UAT</text>
+
+<line class="arr-down" x1="340" y1="416" x2="340" y2="466" />
+<polygon class="head" points="340,470 336,464 344,464" />
+
+<text class="eyebrow" x="60" y="458"><tspan class="eyebrow-num">05</tspan> · 上线阶段</text>
+<text class="tag-ai" x="640" y="458" text-anchor="end">AI 50-60%</text>
+<rect class="pill-mixed" x="248" y="470" width="44" height="32" rx="6" />
+<text class="pt" x="270" y="491" text-anchor="middle">灰度</text>
+<line class="arr" x1="292" y1="486" x2="302" y2="486" />
+<polygon class="head" points="302,486 298,484 298,488" />
+<rect class="pill-mixed" x="304" y="470" width="44" height="32" rx="6" />
+<text class="pt" x="326" y="491" text-anchor="middle">全量</text>
+<line class="arr" x1="348" y1="486" x2="358" y2="486" />
+<polygon class="head" points="358,486 354,484 354,488" />
+<rect class="pill-mixed" x="360" y="470" width="72" height="32" rx="6" />
+<text class="pt" x="396" y="491" text-anchor="middle">监控应急</text>
+
+<line class="arr-down" x1="340" y1="502" x2="340" y2="552" />
+<polygon class="head" points="340,556 336,550 344,550" />
+
+<text class="eyebrow" x="60" y="544"><tspan class="eyebrow-num">06</tspan> · 验证回收</text>
+<text class="tag-ai" x="640" y="544" text-anchor="end">AI 40-60%</text>
+<rect class="pill-mixed" x="248" y="556" width="72" height="32" rx="6" />
+<text class="pt" x="284" y="577" text-anchor="middle">数据验证</text>
+<line class="arr" x1="320" y1="572" x2="330" y2="572" />
+<polygon class="head" points="330,572 326,570 326,574" />
+<rect class="pill-h" x="332" y="556" width="44" height="32" rx="6" />
+<text class="pt" x="354" y="577" text-anchor="middle">复盘</text>
+<line class="arr" x1="376" y1="572" x2="386" y2="572" />
+<polygon class="head" points="386,572 382,570 382,574" />
+<rect class="pill-ai" x="388" y="556" width="44" height="32" rx="6" />
+<text class="pt" x="410" y="577" text-anchor="middle">归档</text>
+
+<text class="caption-strong" x="60" y="615">整体加权 50-60% AI；剩下的人工里一半技术能吃，一半是制度卡点。</text>
+<rect class="legend-ai" x="60" y="632" width="14" height="14" rx="3" />
+<text class="caption" x="80" y="643">AI 主战场</text>
+<rect class="legend-mixed" x="200" y="632" width="14" height="14" rx="3" />
+<text class="caption" x="220" y="643">AI + Human 协作</text>
+<rect class="legend-h" x="380" y="632" width="14" height="14" rx="3" />
+<text class="caption" x="400" y="643">Human 必做</text>
+
+</svg>
