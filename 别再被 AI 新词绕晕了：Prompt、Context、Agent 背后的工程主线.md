@@ -204,16 +204,6 @@ Agent 这件事一发生，前面 Prompt 和 Context 没遇到过的问题集体
 
 这五件事单独看，软件工程过去都遇到过，都有解法。但合在一个会自信犯错、错得还看不出来、输入永远测不完的组件上，老的解法不够用了。整个行业在 2025 到 2026 这一年试遍各种工程实践，逐步沉淀出第三个工程层：怎么给 agent 套上一圈"能动手但不乱动"的壳。这就是下一章 Harness Engineering 要讲的事。
 
-## 4.3 MCP：agent 时代的 USB-C
-
-讲 Harness 之前，要先讲 MCP。它是 agent 时代到目前为止最重要的一项 infra 级新东西，分量跟 function calling 一个量级。
-
-Agent 真正动手之后，每家厂商都在重写同样的胶水代码：让 LLM 连到文件系统、数据库、GitHub、Slack、浏览器、内部 API。同一个文件系统接口，OpenAI 一种写法，Anthropic 一种写法，Google 又一种写法，工具开发者要重复造三遍。Anthropic 2024 年 11 月发出 Model Context Protocol（MCP）把这件事标准化：定义一套 JSON-RPC 协议，任何工具或数据源按这套协议暴露接口，任何模型只要会说 MCP 就能即插即用。社区戏称它是"AI agent 的 USB-C"。
-
-发布之初被当作 Anthropic 的方言。2025 年 Cursor、Claude Desktop、VS Code 接入之后生态开始滚雪球，2026 年 4 月 OpenAI 的 Codex CLI 加入支持，Google 也跟进，MCP 已经从"新协议"升级成 agent 生态事实上的互操作层。GitHub 上几千个开源 MCP server，filesystem、Postgres、Stripe、Notion、Browser、Linear、Sentry，应有尽有，任何团队接一次 MCP 等于一次接入整个生态。
-
-MCP 在文章的三层主干里跨在 Context 和 Harness 之间。它让 Context 的拼装有了统一接口（"读这个文件"、"查这条记录"用同一种调用方式），也让 Harness 给 agent 调外部服务、调权限、调环境有了通用通道。一个 protocol 把两层的工具调用问题同时解了。这是 function calling 之后第二个真正立得住的 infra，跟下一节 6.2 要讨论的那些"博文级新词"完全不在一个量级。
-
 # 五、Harness Engineering："AI 动手之后怎么管"
 
 随着 agent 开始真的动手做事，一个叫 Harness Engineering 的词在 2026 年初开始在硅谷流行起来。它要解决的就是上一章结尾那个问题：AI 真动手之后，怎么管住它。
@@ -314,7 +304,7 @@ AI 每拿到一次新能力，工程师就得在它外面加一层护栏。Promp
 
 讲到这儿你可能会担心一件事：2026 年的造词潮还在继续，我要不要把每一个新词都追一遍？
 
-不用。2 月之后冒出来的词一直没停：Karpathy 同一周还造了 **Agentic Engineering**，GitHub 推出了 Spec Kit 和 **Spec-Driven Development**；外围还有 Environment Engineering、Cognitive Architecture、各种 "XX-as-Code"。一个月冒出来的博文级新词比过去两年加起来都多。（MCP 不在这份名单里，它早一年多，已经是 4.3 讲过的 infra 级标准。）
+不用。2 月之后冒出来的词一直没停：Karpathy 同一周还造了 **Agentic Engineering**，GitHub 推出了 Spec Kit 和 **Spec-Driven Development**；外围还有 Environment Engineering、Cognitive Architecture、各种 "XX-as-Code"。一个月冒出来的新词比过去两年加起来都多。
 
 但只要把三层主干记住，每次遇到一个新词，30 秒就能给它归位：
 
