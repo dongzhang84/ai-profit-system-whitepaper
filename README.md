@@ -6,6 +6,7 @@ Deep-analysis articles in Chinese by [@snowboat84](https://x.com/snowboat84), co
 
 | # | Date | Article | X Post | X Views | 知乎 |
 |---|------|---------|--------|---------|------|
+| 20 | 5/1 | [Vibe Reading：AI 时代读书的系统化方法](Vibe%20Reading：AI%20时代读书的系统化方法.md) | [link](https://x.com/snowboat84/status/2050008577511973253) | — | [link](https://zhuanlan.zhihu.com/p/2033424551938365302) |
 | 19 | 4/29 | [长篇分析：Manus 案折射出的中国 AI 创业生态](长篇分析：Manus%20案折射出的中国%20AI%20创业生态.md) | [link](https://x.com/snowboat84/status/2049643679804248305) | — | [link](https://www.zhihu.com/question/2032140708430266999/answer/2033097410373744110) |
 | 18 | 4/28 | [别再被 AI 新词绕晕了：Prompt、Context、Agent 背后的工程主线](别再被%20AI%20新词绕晕了：Prompt、Context、Agent%20背后的工程主线.md) | [link](https://x.com/snowboat84/status/2049286033427349809) | — | [link](https://zhuanlan.zhihu.com/p/2032710620353664658) |
 | 17 | 4/27 | [两万字科普：AI 为什么会编程——原理、历史与未来](两万字科普：AI%20为什么会编程——原理、历史与未来.md) | [link](https://x.com/snowboat84/status/2048919554882215954) | — | [link](https://zhuanlan.zhihu.com/p/2032360512311271425) |

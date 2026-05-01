@@ -225,8 +225,16 @@ CLAUDE.md         # 你的"挑错者"系统提示
 
 ## 作者其它文章
 
-- [Vibe Learning：AI时代，学习这件事被重新组织了](https://github.com/dongzhang84/snowboat-blog/blob/main/Vibe%20Learning%EF%BC%9AAI%20%E6%97%B6%E4%BB%A3%EF%BC%8C%E5%AD%A6%E4%B9%A0%E8%BF%99%E4%BB%B6%E4%BA%8B%E8%A2%AB%E9%87%8D%E6%96%B0%E7%BB%84%E7%BB%87%E4%BA%86.md)
-- [兄弟们，真·Vibe Writing时代到来了](https://github.com/dongzhang84/snowboat-blog/blob/main/%E5%85%84%E5%BC%9F%E4%BB%AC%EF%BC%8C%E7%9C%9F%C2%B7Vibe%20Writing%20%E6%97%B6%E4%BB%A3%E5%88%B0%E6%9D%A5%E4%BA%86.md)
+- [长篇分析：Manus 案折射出的中国 AI 创业生态](https://x.com/snowboat84/status/2049643679804248305)
+- [别再被 AI 新词绕晕了：Prompt、Context、Agent 背后的工程主线](https://x.com/snowboat84/status/2049286033427349809)
+- [两万字科普：AI 为什么会编程——原理、历史与未来](https://x.com/snowboat84/status/2048919554882215954)
+- [兄弟们，真·Vibe Writing 时代到来了](https://x.com/snowboat84/status/2047828585537548574)
+- [全网最详细的AI学习路线图](https://x.com/snowboat84/status/2047457686070141051)
+- [每个人都应该使用的三个最有用的 Claude Skill](https://x.com/snowboat84/status/2047110768773197834)
+- [SpaceX 立志传（一）：赌上全部的最后一次发射](https://x.com/snowboat84/status/2046743964192276766)
+- [估值290亿美元的套壳公司，正在被自己的房东杀死](https://x.com/snowboat84/status/2046380497627230607)
+- [黄仁勋和主持人吵红了脸：芯片封锁中国，美国到底能不能打赢？](https://x.com/snowboat84/status/2046022377830801725)
+- [AI将如何颠覆教育，普通人又应该如何抢夺教育新的生态位](https://x.com/snowboat84/status/2044932338262667509)
 - [学物理的八方英雄们，物理学已死，请转行搞AI](https://x.com/snowboat84/status/2044584627046920278)
 - [不会编程、没有融资、没有员工，他怎么一个人做到年入2000万](https://x.com/snowboat84/status/2044216044575998136)
 - [兄弟们想清楚：究竟是你为X打工，还是X为你打工？](https://x.com/snowboat84/status/2043842017260908743)
@@ -234,7 +242,7 @@ CLAUDE.md         # 你的"挑错者"系统提示
 - [2026第一季度大裁员，AI是背锅侠吗？](https://x.com/snowboat84/status/2042766853404307931)
 - [重返星辰大海：这次绕月飞行有意义吗？](https://x.com/snowboat84/status/2042405716380835998)
 - [张雪峰在美国为什么无法成功](https://x.com/snowboat84/status/2042045634245746743)
-- [2026企业尸检报告：不用AI，你的公司能活过今年吗？](https://x.com/snowboat84/status/2041672997959057517)
+- [2026 企业尸检报告：不用AI，你的公司能活过今年吗？](https://x.com/snowboat84/status/2041672997959057517)
 - [兄弟们，我创业失败了，人生完整了](https://x.com/snowboat84/status/2040948420391940272)
 
 
