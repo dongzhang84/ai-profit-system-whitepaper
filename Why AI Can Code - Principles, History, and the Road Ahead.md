@@ -20,9 +20,9 @@ Let's take stock of AI coding.
 
 Back in 2021 it was still mostly an academic topic. Insider programmers treated it as a side tool. GitHub Copilot launched that year and got attention for a while; the debate was mostly "should I use this thing, will it make me dumber?"
 
-By April 2026 the picture had changed completely. About 135,000 public GitHub commits per day are now produced directly by Claude Code, roughly 4% of all public commits across the platform. OpenAI's Codex CLI, one year after its relaunch, has crossed 3 million weekly active developers. Cursor's parent company Anysphere went from 0 to $2 billion in ARR over two years, the fastest curve in SaaS history.
+By April 2026 everything had changed. About 135,000 public GitHub commits per day are now produced directly by Claude Code, roughly 4% of all public commits across the platform. OpenAI's Codex CLI, one year after its relaunch, has crossed 3 million weekly active developers. Cursor's parent company Anysphere went from 0 to $2 billion in ARR over two years, the fastest curve in SaaS history.
 
-In the span of four or five years, AI coding moved from "paper topic" to "tens-of-millions-DAU productivity tool."
+In four or five years, AI coding moved from a paper topic to a productivity tool with tens of millions of daily users.
 
 I have been writing professional code for over ten years, and these tools have been part of my daily workflow for the last three. This article uses my own perspective to give a clean answer to three questions that get asked over and over but rarely answered systematically:
 
@@ -36,19 +36,19 @@ I'll go in order: principles, history, future. No technical background required.
 
 ## 1.1 The Prehistory: Two Paths for Code Tooling
 
-Before ChatGPT, getting machines to write code was being attempted along two separate paths.
+Before ChatGPT, two separate paths were being tried to get machines to write code.
 
 One path was self-service for programmers, through forum-style platforms or IDE tools. Stack Overflow's pitch was "every error message and solution humanity has ever produced, all in one place." You wrote a piece of code, hit an error, pasted the message, and someone in the community answered. China's counterpart was CSDN, a developer community that started in 1999; by 2024 it had 40 million registered users and 12 million monthly actives, the Chinese-language external brain of the entire domestic programmer base. When I was learning to code in 2014, my daily loop was: write code, hit an error, copy-paste it into Stack Overflow, edit the answer, paste it back. That loop ran for a full 15 years before ChatGPT showed up.
 
-The IDE layer was also trying to help. Microsoft Visual Studio (first released 1997) had IntelliSense; Eclipse (open-sourced by IBM in 2001) had Content Assist; JetBrains IntelliJ IDEA (2001) had smart completion. These were the canonical "intelligent prompts" of their era. But they were essentially dictionary lookups. You typed `str.` and the IDE listed every method on the String class. It didn't "understand" what you wanted. It looked up a table.
+The IDE layer was also trying to help. Microsoft Visual Studio (first released 1997) had IntelliSense; Eclipse (open-sourced by IBM in 2001) had Content Assist; JetBrains IntelliJ IDEA (2001) had smart completion. These were the canonical "intelligent prompts" of their era. But they were really just dictionary lookups. You typed `str.` and the IDE listed every method on the String class. It didn't "understand" what you wanted. It looked up a table.
 
 The other path was academic program synthesis: starting from a formal specification and deriving code through formal logic. This line dates back to the 1970s and was stuck at toy scale for half a century. The only industrial-grade result that came out of it was FlashFill, led by Sumit Gulwani at Microsoft Research and integrated into Excel in 2013, which guesses transformation rules across an entire column from a few examples you give it. But this approach demanded formal specifications or clean examples. It could not handle natural language at all.
 
 Around 2020 there were also neural-network-based code tools, like Microsoft's CodeBERT (September 2020) and Salesforce's CodeT5 (2021). These were slightly smarter autocomplete. Their fundamental limitation was the same: they didn't understand natural language. You couldn't talk to them. They could complete a line of code, not take on a task.
 
-Looking at all these lines together, the underlying problem becomes clear: for a machine to actually write code, it first has to understand natural language. Before 2018, nobody had cracked that.
+Lay all these lines side by side and the underlying problem is obvious: for a machine to actually write code, it first has to understand natural language. Before 2018, nobody had cracked that.
 
-## 1.2 The Turning Point: How the GPT Series Changed the Game
+## 1.2 The Turning Point: How the GPT Series Broke the Door Open
 
 The turning point was the GPT series. In June 2018 OpenAI proposed an approach: pretrain on a massive corpus of natural text so the model learns the general skill of "guessing the next word," then fine-tune for specific tasks. GPT was the result. GPT-1 had 0.117B parameters and was a research prototype; GPT-2 (February 2019) jumped to 1.5B; GPT-3 (May 2020) hit 175B, 100 times bigger than GPT-2. Once the scale crossed that threshold, "understanding natural language" became real for the first time, and the path to code was wide open.
 
@@ -67,7 +67,7 @@ The way the model generates this is one token at a time. Given `def fib(n):`, th
 
 ## 1.3 Why Code Is Especially Good Training Data
 
-But code is uniquely well-suited to being learned by a language model, for several reasons.
+Code is particularly well-suited to being learned by a language model. A few reasons why.
 
 The most direct one is regularity. After `for i in range(10):`, what comes next is an indented loop body. The rule is fixed, much more stable than natural language. The same idea can be expressed ten ways in natural language; in code there are usually two or three. This means the "compressed rules" the model extracts from a finite corpus are far denser in code than in ordinary text.
 
@@ -99,7 +99,7 @@ But Copilot's form was limited then. The context window was only 2k to 8k tokens
 
 On the model side, Anthropic started almost in parallel. Its two leaders are Dario and Daniela Amodei, brother and sister. They left OpenAI at the end of 2020 and stood the company up by January 2021, taking with them a group of GPT-3-era core researchers including Tom Brown, Jared Kaplan, and Sam McCandlish. Anthropic positioned model honesty, controllability, and long-context understanding as its differentiators. That foundation later turned into Claude's natural advantage on coding tasks: it can read long codebases, follow complex instructions, and willingly say "I'm not sure" about parts where it isn't sure.
 
-In November 2022 OpenAI released ChatGPT and the form of AI coding shifted from "completion tool" to "conversation partner." But early ChatGPT often confidently made things up when writing code, inventing APIs that did not exist. The Claude series that emerged at the same time had noticeably higher code accuracy in the engineering community's hands — a niche choice for engineers in the know.
+In November 2022 OpenAI released ChatGPT and the form of AI coding shifted from "completion tool" to "conversation partner." But early ChatGPT often confidently made things up when writing code, inventing APIs that did not exist. The Claude series that arrived at the same time had noticeably higher code accuracy in the engineering community's hands — a quiet favorite among engineers paying attention.
 
 After ChatGPT took off, the entire ecosystem of "external brains for programmers" started getting rewritten. Stack Overflow took the most direct hit. Founded September 2008 by Joel Spolsky and Jeff Atwood, the global Q&A site for programmers peaked in 2017: over 300,000 new questions per month, over 100 million monthly visits, 10 million registered users. After ChatGPT, monthly new questions slid from that 2017 peak to about 87,000 in 2023, then under 60,000 in 2024. By December 2025 the count was fewer than 4,000 — back to the level of 2008 when the site had just launched. CSDN was on the same slope. Kite, an early AI-completion startup founded in 2014, shut down in November 2022 with a parting line from its founder Adam Smith: the company "failed to deliver our vision of AI-assisted programming because we were 10+ years too early to market, i.e., the tech is not ready yet." Even 500,000 monthly actives could not keep it alive. Codecademy and W3Schools — the tutorial sites — kept losing traffic too.
 
@@ -139,7 +139,7 @@ A few others. Tencent's CodeBuddy plugs into the Hunyuan model and lives inside 
 
 Looking at the whole picture, China's real edges come down to three: noticeably better fit for Chinese-language scenarios, tight integration with domestic clouds, and a short path to enterprise deployment (plus mostly-free individual versions). The weak points are equally real: frontier model capability still lags Claude Opus and the GPT-5 line, and on complex multi-file, cross-repo agent tasks the gap is visible. The genuine room for differentiation runs along two lanes — one is to keep closing the model-capability gap, which DeepSeek, Qwen, and Zhipu are all working on; the other is to push specific industry workflows directly into the tool, which is exactly what Wenxin Comate's SPEC mode is doing.
 
-Now the non-programmer track. Tools in this category — often labeled "Vibe Coding" — aim to let non-programmers build apps. You describe what you want in natural language, and the AI gives you a running app. This line has accelerated rapidly over the last year, with each player taking a different angle.
+Now the non-programmer track. These tools — often labeled "Vibe Coding" — aim to let non-programmers build apps. You describe what you want in natural language, and the AI gives you a running app. The space has moved fast over the last year, with each player taking a different angle.
 
 Lovable has been the runaway leader of this wave. Built by Swedish founder Anton Osika in 2024, it went from $0 to $400 million ARR in under a year, with only 146 employees. The product form is a chat box plus live preview: you type "I want a kanban board, draggable cards, syncing with Slack," and Lovable generates the full stack — frontend plus a Supabase database — that runs in your browser within minutes.
 
@@ -255,7 +255,7 @@ After all those cuts, the actual one-click flow has three steps left: you descri
 
 ### 3.2.1 Personal, Throwaway, Internal Tools
 
-This category is essentially AI-ized today. But internally, there are two architectures.
+This category is basically AI-ized today. But internally, there are two architectures.
 
 The cleanest one is pure frontend, runs in the browser, and is gone when you close the tab. Anthropic's Artifact, OpenAI's Canvas, Vercel's v0, and Bolt.new all fall in this bucket. They generate tools with no backend, no database, no user login — just a chunk of HTML + JavaScript running in the browser, the stack as simple as React + Tailwind in one or two files. Throwaway calculators, UI prototypes, data visualizations, document format converters are typical use cases. Today these really are: one sentence to describe, a few minutes to get, no account needed. AI handles the whole thing end to end.
 
@@ -265,7 +265,7 @@ Adding the two together, personal and internal small tools are about 95% AI-ized
 
 ### 3.2.2 Apps for Other People — App Store, or Anything That Takes Money
 
-The reality here is: AI can write 95%+ of the code, and the human's main work is console clicking and going through compliance flows. Drilling down, the console-clicking layer further splits into technical and institutional pieces.
+What's actually happening here: AI can write 95%+ of the code, and the human's main work is console clicking and going through compliance flows. Drilling down, the console-clicking layer further splits into technical and institutional pieces.
 
 The technical layer: AI writes the code, the human pastes credentials. Spinning up a standard indie App stack (Next.js + Supabase + Stripe + Resend + Vercel), AI handles roughly: writing all the TypeScript code, writing the Prisma schema, running db push, writing Stripe checkout and webhook handlers, writing email templates, installing dependencies, git push to trigger deployment. The human still does dashboard work, for example:
 
@@ -347,7 +347,7 @@ Putting it all together, the App ecosystem in a few years looks like three layer
 
 **Top-app layer**. WeChat, TikTok, Taobao, Apple, Google, Meta. Anchored by network effects, data, and content ecosystems. AI coding makes them stronger. The number of players in this layer shrinks; each remaining player's share grows.
 
-**Assistant layer**. This is the one that emerges. The user's entry point shifts from opening a particular app to telling an AI assistant a sentence. The assistant calls underlying models to generate one-shot tools or calls a top app's API to get things done. The current prototypes for this layer are general assistants like ChatGPT, Claude, Apple Intelligence, and Google Gemini. Who owns this layer is the biggest battle of the next few years, because it could chip away at the App Store's distribution position.
+**Assistant layer**. This is the new one. The user's entry point shifts from opening a particular app to telling an AI assistant a sentence. The assistant calls underlying models to generate one-shot tools or calls a top app's API to get things done. The current prototypes are general assistants like ChatGPT, Claude, Apple Intelligence, and Google Gemini. Who owns this layer is the biggest battle of the next few years, because it could chip away at the App Store's distribution position.
 
 **Model layer**. Anthropic, OpenAI, Google, plus DeepSeek, Alibaba's Qwen, ByteDance's Doubao. They make money selling tokens and capability. AI coding's prosperity flows to this layer first, because every Capability generation and every assistant call burns tokens.
 
@@ -369,9 +369,9 @@ Compress the article into a few lines you can hold in your head.
 
 **Ecosystem**. On the supply side, AI coding multiplies capacity 10x to 100x; demand barely moves. The middle layer gets flattened: long-tail SaaS disappears wholesale, vertical industry SaaS loses half its market. Top apps (WeChat, TikTok, Taobao, Apple, Google, Meta) don't get replaced. Network effects, data, content ecosystems, distribution gates, plus AI-driven internal speedups make them stronger. Long-tail apps decay into on-demand-generated Capabilities: throwaway, personalized, zero-install, never in an App Store. The few-years picture is three layers stacked: top-app platforms, AI assistant + Capability, model layer. The first action when picking up the phone shifts from finding an icon to telling the AI a sentence — the biggest entry-point shift since the iPhone.
 
-**Where to position next**. Several paths are open in this new division of labor: an engineer who collaborates with AI, taking on more judgment, review, and acceptance work; a product person who can wield AI tools to solve real business problems, who knows clearly which steps to hand off to AI and which to keep on humans; a founder who uses AI to do solo what used to take ten people, betting on a position in the new AI-assistant + Capability ecosystem; or a vertical specialist building a "small top" inside an industry's domain knowledge that AI coding can't replicate. Each of these paths is wider than five years ago. But the dream of "starting from scratch and building the next WeChat" really is gone — AI coding makes the top deeper, replaces most of the long tail, and opens up an entirely new AI assistant layer waiting to be claimed.
+**Where to position next**. A few paths are wide open. Be an engineer who collaborates with AI and takes on more judgment, review, and acceptance work. Be a product person who can wield AI tools against real business problems, with a clear sense of which steps to hand off to AI and which to keep on humans. Be a founder who uses AI to do solo what used to take ten people, betting on a position in the new AI-assistant + Capability layer. Or be a vertical specialist building a "small top" inside an industry's domain knowledge that AI coding can't replicate. Each of these paths is wider than it was five years ago. But the dream of "starting from scratch and building the next WeChat" really is gone — AI coding makes the top deeper, replaces most of the long tail, and opens up a fresh AI assistant layer waiting to be claimed.
 
-One sentence: AI raised the floor on building software dramatically. The ceiling is still set by humans. The biggest winners in the new map are top apps, model companies, and the few players who manage to claim ground in the assistant layer. Everyone else has to find their own leverage point inside the new division of labor.
+One sentence: AI raised the floor on building software dramatically. The ceiling is still set by humans. The biggest winners in the new map are top apps, model companies, and the few players who manage to claim ground in the assistant layer. Everyone else has to find their own leverage point.
 
 ---
 
