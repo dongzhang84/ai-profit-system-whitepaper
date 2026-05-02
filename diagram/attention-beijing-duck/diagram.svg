@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 680 500" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Microsoft YaHei', 'Segoe UI', sans-serif">
+<style>
+:root { --fg: #111827; --fg-muted: #6b7280; --fg-soft: #9ca3af; --bg: #ffffff; --layer-bg: #f9fafb; --layer-stroke: #e5e7eb; --divider: #e5e7eb; --accent: #fb7185; --accent-bg: #fff1f2; --accent-stroke: #fca5b1; }
+@media (prefers-color-scheme: dark) { :root { --fg: #f3f4f6; --fg-muted: #9ca3af; --fg-soft: #6b7280; --bg: #0b0f17; --layer-bg: #1f2937; --layer-stroke: #374151; --divider: #374151; --accent: #fda4af; --accent-bg: #3f1d24; --accent-stroke: #9f1239; } }
+.bg { fill: var(--bg); }
+.layer { fill: var(--layer-bg); stroke: var(--layer-stroke); stroke-width: 1.2; }
+.layer-key { fill: var(--accent-bg); stroke: var(--accent-stroke); stroke-width: 1.4; }
+.title { font-size: 18px; font-weight: 600; fill: var(--fg); }
+.subtitle { font-size: 12px; font-weight: 400; fill: var(--fg-muted); }
+.t { font-size: 14px; font-weight: 400; fill: var(--fg); }
+.th { font-size: 14px; font-weight: 600; fill: var(--fg); }
+.ts { font-size: 12px; font-weight: 400; fill: var(--fg-muted); }
+.eyebrow { font-size: 12px; font-weight: 500; fill: var(--fg-soft); letter-spacing: 0.08em; }
+.eyebrow-accent { fill: var(--accent); }
+.caption { font-size: 12px; font-weight: 400; fill: var(--fg-muted); }
+.caption-strong { font-size: 14px; font-weight: 500; fill: var(--fg); }
+.divider { stroke: var(--divider); stroke-width: 1; }
+.divider-accent { stroke: var(--accent-stroke); stroke-width: 1; }
+.arr { fill: none; stroke: var(--fg-soft); stroke-linecap: round; }
+.arr-key { fill: none; stroke: var(--accent); stroke-linecap: round; }
+</style>
+<defs>
+  <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto" markerUnits="strokeWidth">
+    <path d="M1,1 L7,4 L1,7" fill="none" stroke="var(--fg-soft)" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+  </marker>
+  <marker id="arrow-accent" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto" markerUnits="strokeWidth">
+    <path d="M1,1 L7,4 L1,7" fill="none" stroke="var(--accent)" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+  </marker>
+</defs>
+<rect class="bg" x="0" y="0" width="680" height="500"/>
+<text class="title" x="60" y="42">Attention 如何理解“我喜欢北京的烤鸭”</text>
+<text class="subtitle" x="60" y="64">处理“烤鸭”时，每个词都可以直接被查看，并按权重合成新的语义表示</text>
+<rect class="layer" x="60" y="94" width="560" height="70" rx="10"/>
+<text class="eyebrow" x="82" y="120">INPUT TOKENS</text>
+<rect class="layer" x="82" y="132" width="70" height="34" rx="8"/>
+<text class="t" x="117" y="154" text-anchor="middle">我</text>
+<rect class="layer" x="177" y="132" width="70" height="34" rx="8"/>
+<text class="t" x="212" y="154" text-anchor="middle">喜欢</text>
+<rect class="layer-key" x="272" y="132" width="70" height="34" rx="8"/>
+<text class="th" x="307" y="154" text-anchor="middle">北京</text>
+<rect class="layer" x="367" y="132" width="70" height="34" rx="8"/>
+<text class="t" x="402" y="154" text-anchor="middle">的</text>
+<rect class="layer-key" x="462" y="132" width="78" height="34" rx="8"/>
+<text class="th" x="501" y="154" text-anchor="middle">烤鸭</text>
+<text class="eyebrow eyebrow-accent" x="560" y="154">当前词</text>
+<path class="arr" d="M117 170 C130 220, 220 250, 282 294" stroke-width="1.4" marker-end="url(#arrow)"/>
+<path class="arr" d="M212 170 C230 220, 260 250, 306 294" stroke-width="2.8" marker-end="url(#arrow)"/>
+<path class="arr-key" d="M307 170 C322 220, 335 250, 340 294" stroke-width="5.2" marker-end="url(#arrow-accent)"/>
+<path class="arr" d="M402 170 C390 220, 378 250, 374 294" stroke-width="2.2" marker-end="url(#arrow)"/>
+<path class="arr" d="M501 170 C490 230, 442 263, 398 294" stroke-width="3.2" marker-end="url(#arrow)"/>
+<rect class="layer" x="78" y="210" width="142" height="62" rx="10"/>
+<text class="eyebrow" x="98" y="234">LOW</text>
+<text class="t" x="98" y="256">“我”只弱相关</text>
+<rect class="layer-key" x="264" y="214" width="156" height="64" rx="10"/>
+<text class="eyebrow eyebrow-accent" x="284" y="238">HIGHEST WEIGHT</text>
+<text class="th" x="284" y="260">“北京”强修饰“烤鸭”</text>
+<rect class="layer" x="452" y="210" width="150" height="62" rx="10"/>
+<text class="eyebrow" x="472" y="234">SELF + STRUCTURE</text>
+<text class="t" x="472" y="256">“的”和自身参与合成</text>
+<rect class="layer" x="110" y="316" width="460" height="86" rx="12"/>
+<text class="eyebrow" x="138" y="342">OUTPUT REPRESENTATION</text>
+<text class="th" x="138" y="366">烤鸭的新表征 = 北京的信息 + 喜欢的信息</text>
+<text class="th" x="138" y="388">+ “的”的结构关系 + 自身信息</text>
+<line class="divider" x1="90" y1="430" x2="590" y2="430"/>
+<text class="caption-strong" x="60" y="458">核心直觉</text>
+<text class="caption" x="132" y="458">RNN靠顺序传递信息；attention让目标词一步看到全句，再按权重取信息。</text>
+</svg>
