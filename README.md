@@ -16,8 +16,8 @@ Deep-analysis articles in Chinese by [@snowboat84](https://x.com/snowboat84), co
 | 15 | 4/23 | [全网最详细的AI学习路线图](全网最详细的AI学习路线图.md) | [link](https://x.com/snowboat84/status/2047457686070141051) | 11k | [link](https://www.zhihu.com/question/327809761/answer/2030919268590695578) |
 | 14.2 | 4/22 | [长篇科普：卡拉比—丘成桐定理，及其物理意义（下）](长篇科普：卡拉比—丘成桐定理，及其物理意义（下）.md) | — | — | [link](https://zhuanlan.zhihu.com/p/2029339354934289203) |
 | 14.1 | 4/22 | [每个人都应该使用的三个最有用的 Claude Skill](每个人都应该使用的三个最有用的%20Claude%20Skill.md) | [link](https://x.com/snowboat84/status/2047110768773197834) | 300+ | — |
-| 13 | 4/21 | [SpaceX 立志传（一）：赌上全部的最后一次发射](SpaceX%20立志传（一）：赌上全部的最后一次发射.md) | [link](https://x.com/snowboat84/status/2046743964192276766) | 1.4k | [link](https://zhuanlan.zhihu.com/p/2028372635839394803) |
-| 12 | 4/20 | [估值290亿美元的套壳公司，正在被自己的房东杀死](估值290亿美元的套壳公司，正在被自己的房东杀死.md) | [link](https://x.com/snowboat84/status/2046380497627230607) | 3.6k | [link](https://www.zhihu.com/question/1946791222762014096/answer/2029844198262673431) |
+| 13 | 4/21 | [SpaceX 立志传（一）：赌上全部的最后一次发射](archive/SpaceX%20立志传（一）：赌上全部的最后一次发射.md) | [link](https://x.com/snowboat84/status/2046743964192276766) | 1.4k | [link](https://zhuanlan.zhihu.com/p/2028372635839394803) |
+| 12 | 4/20 | [估值290亿美元的套壳公司，正在被自己的房东杀死](archive/估值290亿美元的套壳公司，正在被自己的房东杀死.md) | [link](https://x.com/snowboat84/status/2046380497627230607) | 3.6k | [link](https://www.zhihu.com/question/1946791222762014096/answer/2029844198262673431) |
 | 11 | 4/19 | [黄仁勋和主持人吵红了脸：芯片封锁中国，美国到底能不能打赢？](archive/黄仁勋和主持人吵红了脸：芯片封锁中国，美国到底能不能打赢？（长篇分析）.md) | [link](https://x.com/snowboat84/status/2046022377830801725) | 2k | [link](https://www.zhihu.com/question/2028405023437014568/answer/2029458215104988529) |
 | 10 | 4/16 | [AI将如何颠覆教育，普通人又应该如何抢夺教育新的生态位](archive/AI将如何颠覆教育，普通人又应该如何抢夺教育新的生态位.md) | [link](https://x.com/snowboat84/status/2044932338262667509) | 3.5k | [link](https://zhuanlan.zhihu.com/p/2027582531520708691) |
 | 9 | 4/15 | [学物理的八方英雄们，物理学已死，请转行搞AI](archive/学物理的八方英雄们，物理学已死，请转行搞AI.md) | [link](https://x.com/snowboat84/status/2044584627046920278) | 1.3k | [link](https://zhuanlan.zhihu.com/p/2027392166075406203) |
