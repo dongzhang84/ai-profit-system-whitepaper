@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 680 620" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Microsoft YaHei', 'Segoe UI', sans-serif">
+<style>
+:root { --fg: #111827; --fg-muted: #6b7280; --fg-soft: #9ca3af; --bg: #ffffff; --layer-bg: #f9fafb; --layer-stroke: #e5e7eb; --divider: #e5e7eb; --accent: #fb7185; --accent-bg: #fff1f2; --accent-stroke: #fca5b1; }
+@media (prefers-color-scheme: dark) { :root { --fg: #f3f4f6; --fg-muted: #9ca3af; --fg-soft: #6b7280; --bg: #0b0f17; --layer-bg: #1f2937; --layer-stroke: #374151; --divider: #374151; --accent: #fda4af; --accent-bg: #3f1d24; --accent-stroke: #9f1239; } }
+.bg { fill: var(--bg); }
+.layer { fill: var(--layer-bg); stroke: var(--layer-stroke); stroke-width: 1.2; }
+.layer-key { fill: var(--accent-bg); stroke: var(--accent-stroke); stroke-width: 1.4; }
+.title { font-size: 18px; font-weight: 600; fill: var(--fg); }
+.subtitle { font-size: 12px; font-weight: 400; fill: var(--fg-muted); }
+.t { font-size: 14px; font-weight: 400; fill: var(--fg); }
+.th { font-size: 14px; font-weight: 600; fill: var(--fg); }
+.ts { font-size: 12px; font-weight: 400; fill: var(--fg-muted); }
+.eyebrow { font-size: 12px; font-weight: 500; fill: var(--fg-soft); letter-spacing: 0.08em; }
+.eyebrow-accent { fill: var(--accent); }
+.caption { font-size: 12px; font-weight: 400; fill: var(--fg-muted); }
+.caption-strong { font-size: 14px; font-weight: 500; fill: var(--fg); }
+.divider { stroke: var(--divider); stroke-width: 1; }
+.divider-accent { stroke: var(--accent-stroke); stroke-width: 1; }
+.arr { fill: none; stroke: var(--fg-soft); stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; }
+.arr-key { fill: none; stroke: var(--accent); stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+</style>
+<defs>
+  <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto" markerUnits="strokeWidth">
+    <path d="M1,1 L7,4 L1,7" fill="none" stroke="var(--fg-soft)" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+  </marker>
+  <marker id="arrow-accent" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto" markerUnits="strokeWidth">
+    <path d="M1,1 L7,4 L1,7" fill="none" stroke="var(--accent)" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+  </marker>
+</defs>
+<rect class="bg" x="0" y="0" width="680" height="620"/>
+<text class="title" x="60" y="42">GPT-3 的赌注：先要有望远镜</text>
+<text class="subtitle" x="60" y="64">1750亿参数不是直接训出来的，先要把模型、层数、优化器状态切开</text>
+
+<rect class="layer-key" x="88" y="96" width="504" height="92" rx="12"/>
+<text class="eyebrow eyebrow-accent" x="116" y="124">THEORETICAL BET</text>
+<text class="th" x="116" y="150">只靠“猜下一个词”，规模够大会不会长出新能力？</text>
+<text class="ts" x="116" y="172">Scaling Laws 给出底气：loss 随参数、数据、算力按幂律下降</text>
+
+<path class="arr-key" d="M340 188 L340 226" marker-end="url(#arrow-accent)"/>
+<rect class="layer" x="176" y="226" width="328" height="70" rx="10"/>
+<text class="eyebrow" x="202" y="252">TARGET</text>
+<text class="th" x="202" y="276">1750亿参数 GPT-3：单卡完全装不下</text>
+
+<path class="arr" d="M340 296 L340 326"/>
+<path class="arr" d="M340 326 L156 326 L156 356" marker-end="url(#arrow)"/>
+<path class="arr" d="M340 326 L340 356" marker-end="url(#arrow)"/>
+<path class="arr" d="M340 326 L524 326 L524 356" marker-end="url(#arrow)"/>
+
+<rect class="layer" x="72" y="356" width="168" height="104" rx="10"/>
+<text class="eyebrow" x="96" y="382">TENSOR</text>
+<text class="th" x="96" y="406">张量并行</text>
+<text class="ts" x="96" y="430">横着切单层矩阵</text>
+<text class="ts" x="96" y="452">N张GPU各算一块</text>
+
+<rect class="layer" x="256" y="356" width="168" height="104" rx="10"/>
+<text class="eyebrow" x="280" y="382">PIPELINE</text>
+<text class="th" x="280" y="406">流水线并行</text>
+<text class="ts" x="280" y="430">竖着切96层堆栈</text>
+<text class="ts" x="280" y="452">不同GPU管不同层</text>
+
+<rect class="layer" x="440" y="356" width="168" height="104" rx="10"/>
+<text class="eyebrow" x="464" y="382">MEMORY</text>
+<text class="th" x="464" y="406">ZeRO</text>
+<text class="ts" x="464" y="430">切优化器状态</text>
+<text class="ts" x="464" y="452">梯度、参数也分片</text>
+
+<path class="arr" d="M156 460 L156 492 L300 492" marker-end="url(#arrow)"/>
+<path class="arr" d="M340 460 L340 492" marker-end="url(#arrow)"/>
+<path class="arr" d="M524 460 L524 492 L380 492" marker-end="url(#arrow)"/>
+
+<rect class="layer-key" x="120" y="494" width="440" height="62" rx="12"/>
+<text class="eyebrow eyebrow-accent" x="148" y="520">ENGINEERING TELESCOPE</text>
+<text class="th" x="148" y="544">3D并行 + Azure约1万张V100，把千亿模型塞进集群</text>
+
+<line class="divider" x1="90" y1="582" x2="590" y2="582"/>
+<text class="caption-strong" x="60" y="604">核心直觉</text>
+<text class="caption" x="132" y="604">工程先造出望远镜，理论才有机会看见GPT-3这片新大陆。</text>
+</svg>
