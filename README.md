@@ -6,6 +6,7 @@ Deep-analysis articles in Chinese by [@snowboat84](https://x.com/snowboat84), co
 
 | # | Date | Article | X Post | X Views | 知乎 |
 |---|------|---------|--------|---------|------|
+| 22 | 5/4 | [一篇文章讲清大语言模型发展史](一篇文章讲清大语言模型发展史.md) | [link](https://x.com/snowboat84/status/2051444935547912236) | — | [link](https://zhuanlan.zhihu.com/p/2033073416228573341) |
 | 21 | 5/1 | [气吞万里如虎：回顾十九世纪的数学英豪们](气吞万里如虎：回顾十九世纪的数学英豪们.md) | [link](https://x.com/snowboat84/status/2050371067278143931) | — | [link](https://zhuanlan.zhihu.com/p/2033553726032565423) |
 | 20 | 4/30 | [Vibe Reading：AI 时代读书的系统化方法](Vibe%20Reading：AI%20时代读书的系统化方法.md) | [link](https://x.com/snowboat84/status/2050008577511973253) | — | [link](https://zhuanlan.zhihu.com/p/2033424551938365302) |
 | 19 | 4/29 | [长篇分析：Manus 案折射出的中国 AI 创业生态](长篇分析：Manus%20案折射出的中国%20AI%20创业生态.md) | [link](https://x.com/snowboat84/status/2049643679804248305) | — | [link](https://www.zhihu.com/question/2032140708430266999/answer/2033097410373744110) |
